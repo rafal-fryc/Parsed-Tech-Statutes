@@ -1,0 +1,1149 @@
+{
+  "statute_name": "Colorado Privacy Law",
+  "effective_date": "July 1, 2023",
+  "definitions": {
+    "Affiliate": {
+      "term": "Affiliate",
+      "definition": "MEANS A LEGAL ENTITY THAT CONTROLS, IS CONTROLLED BY, OR IS UNDER COMMON CONTROL WITH ANOTHER LEGAL ENTITY. AS USED IN THIS SUBSECTION (1), \"CONTROL\" MEANS: (a) OWNERSHIP OF, CONTROL OF, OR POWER TO VOTE TWENTY-FIVE PERCENT OR MORE OF THE OUTSTANDING SHARES OF ANY CLASS OF VOTING SECURITY OF THE ENTITY, DIRECTLY OR INDIRECTLY, OR ACTING THROUGH ONE OR MORE OTHER PERSONS; (b) CONTROL IN ANY MANNER OVER THE ELECTION OF A MAJORITY OF THE DIRECTORS, TRUSTEES, OR GENERAL PARTNERS OF THE ENTITY OR OF INDIVIDUALS EXERCISING SIMILAR FUNCTIONS; OR (c) THE POWER TO EXERCISE, DIRECTLY OR INDIRECTLY, A CONTROLLING INFLUENCE OVER THE MANAGEMENT OR POLICIES OF THE ENTITY AS DETERMINED BY THE APPLICABLE PRUDENTIAL REGULATOR, AS THAT TERM IS DEFINED IN 12 U.S.C. SEC. 5481 (24), IF ANY.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Authenticate": {
+      "term": "Authenticate",
+      "definition": "MEANS TO USE REASONABLE MEANS TO DETERMINE THAT A REQUEST TO EXERCISE ANY OF THE RIGHTS IN SECTION 6-1-1306 (1) IS BEING MADE BY OR ON BEHALF OF THE CONSUMER WHO IS ENTITLED TO EXERCISE THE RIGHTS.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Business Associate": {
+      "term": "Business Associate",
+      "definition": "HAS THE MEANING ESTABLISHED IN 45 CFR 160.103.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Child": {
+      "term": "Child",
+      "definition": "MEANS AN INDIVIDUAL UNDER THIRTEEN YEARS OF AGE.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Consent": {
+      "term": "Consent",
+      "definition": "MEANS A CLEAR, AFFIRMATIVE ACT SIGNIFYING A CONSUMER'S FREELY GIVEN, SPECIFIC, INFORMED, AND UNAMBIGUOUS AGREEMENT, SUCH AS BY A WRITTEN STATEMENT, INCLUDING BY ELECTRONIC MEANS, OR OTHER CLEAR, AFFIRMATIVE ACTION BY WHICH THE CONSUMER SIGNIFIES AGREEMENT TO THE PROCESSING OF PERSONAL DATA. THE FOLLOWING DOES NOT CONSTITUTE CONSENT: (a) ACCEPTANCE OF A GENERAL OR BROAD TERMS OF USE OR SIMILAR DOCUMENT THAT CONTAINS DESCRIPTIONS OF PERSONAL DATA PROCESSING ALONG WITH OTHER, UNRELATED INFORMATION; (b) HOVERING OVER, MUTING, PAUSING, OR CLOSING A GIVEN PIECE OF CONTENT; AND (c) AGREEMENT OBTAINED THROUGH DARK PATTERNS.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Consumer": {
+      "term": "Consumer",
+      "definition": "(a) MEANS AN INDIVIDUAL WHO IS A COLORADO RESIDENT ACTING ONLY IN AN INDIVIDUAL OR HOUSEHOLD CONTEXT; AND (b) DOES NOT INCLUDE AN INDIVIDUAL ACTING IN A COMMERCIAL OR EMPLOYMENT CONTEXT, AS A JOB APPLICANT, OR AS A BENEFICIARY OF SOMEONE ACTING IN AN EMPLOYMENT CONTEXT.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Controller": {
+      "term": "Controller",
+      "definition": "MEANS A PERSON THAT, ALONE OR JOINTLY WITH OTHERS, DETERMINES THE PURPOSES FOR AND MEANS OF PROCESSING PERSONAL DATA.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Covered Entity": {
+      "term": "Covered Entity",
+      "definition": "HAS THE MEANING ESTABLISHED IN 45 CFR 160.103.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Dark Pattern": {
+      "term": "Dark Pattern",
+      "definition": "MEANS A USER INTERFACE DESIGNED OR MANIPULATED WITH THE SUBSTANTIAL EFFECT OF SUBVERTING OR IMPAIRING USER AUTONOMY, DECISION-MAKING, OR CHOICE.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Decisions that produce legal or similarly significant effects concerning a consumer": {
+      "term": "Decisions that produce legal or similarly significant effects concerning a consumer",
+      "definition": "MEANS A DECISION THAT RESULTS IN THE PROVISION OR DENIAL OF FINANCIAL OR LENDING SERVICES, HOUSING, INSURANCE, EDUCATION ENROLLMENT OR OPPORTUNITY, CRIMINAL JUSTICE, EMPLOYMENT OPPORTUNITIES, HEALTH-CARE SERVICES, OR ACCESS TO ESSENTIAL GOODS OR SERVICES.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "De-identified Data": {
+      "term": "De-identified Data",
+      "definition": "MEANS DATA THAT CANNOT REASONABLY BE USED TO INFER INFORMATION ABOUT, OR OTHERWISE BE LINKED TO, AN IDENTIFIED OR IDENTIFIABLE INDIVIDUAL, OR A DEVICE LINKED TO SUCH AN INDIVIDUAL, IF THE CONTROLLER THAT POSSESSES THE DATA: (a) TAKES REASONABLE MEASURES TO ENSURE THAT THE DATA CANNOT BE ASSOCIATED WITH AN INDIVIDUAL; (b) PUBLICLY COMMITS TO MAINTAIN AND USE THE DATA ONLY IN A DE-IDENTIFIED FASHION AND NOT ATTEMPT TO RE-IDENTIFY THE DATA; AND (c) CONTRACTUALLY OBLIGATES ANY RECIPIENTS OF THE INFORMATION TO COMPLY WITH THE REQUIREMENTS OF THIS SUBSECTION (11).",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Health-care Facility": {
+      "term": "Health-care Facility",
+      "definition": "MEANS ANY ENTITY THAT IS LICENSED, CERTIFIED, OR OTHERWISE AUTHORIZED OR PERMITTED BY LAW TO ADMINISTER MEDICAL TREATMENT IN THIS STATE.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Health-care Information": {
+      "term": "Health-care Information",
+      "definition": "MEANS INDIVIDUALLY IDENTIFIABLE INFORMATION RELATING TO THE PAST, PRESENT, OR FUTURE HEALTH STATUS OF AN INDIVIDUAL.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Health-care Provider": {
+      "term": "Health-care Provider",
+      "definition": "MEANS A PERSON LICENSED, CERTIFIED, OR REGISTERED IN THIS STATE TO PRACTICE MEDICINE, PHARMACY, CHIROPRACTIC, NURSING, PHYSICAL THERAPY, PODIATRY, DENTISTRY, OPTOMETRY, OCCUPATIONAL THERAPY, OR OTHER HEALING ARTS UNDER TITLE 12.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "HIPAA": {
+      "term": "HIPAA",
+      "definition": "MEANS THE FEDERAL \"HEALTH INSURANCE PORTABILITY AND ACCOUNTABILITY ACT OF 1996\", AS AMENDED, 42 U.S.C. SECS. 1320d TO 1320d-9.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Identified or Identifiable Individual": {
+      "term": "Identified or Identifiable Individual",
+      "definition": "MEANS AN INDIVIDUAL WHO CAN BE READILY IDENTIFIED, DIRECTLY OR INDIRECTLY, IN PARTICULAR BY REFERENCE TO AN IDENTIFIER SUCH AS A NAME, AN IDENTIFICATION NUMBER, SPECIFIC GEOLOCATION DATA, OR AN ONLINE IDENTIFIER.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Personal Data": {
+      "term": "Personal Data",
+      "definition": "(a) MEANS INFORMATION THAT IS LINKED OR REASONABLY LINKABLE TO AN IDENTIFIED OR IDENTIFIABLE INDIVIDUAL; AND (b) DOES NOT INCLUDE DE-IDENTIFIED DATA OR PUBLICLY AVAILABLE INFORMATION. AS USED IN THIS SUBSECTION (17)(b), \"PUBLICLY AVAILABLE INFORMATION\" MEANS INFORMATION THAT IS LAWFULLY MADE AVAILABLE FROM FEDERAL, STATE, OR LOCAL GOVERNMENT RECORDS AND INFORMATION THAT A CONTROLLER HAS A REASONABLE BASIS TO BELIEVE THE CONSUMER HAS LAWFULLY MADE AVAILABLE TO THE GENERAL PUBLIC.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Process": {
+      "term": "Process",
+      "definition": "MEANS THE COLLECTION, USE, SALE, STORAGE, DISCLOSURE, ANALYSIS, DELETION, OR MODIFICATION OF PERSONAL DATA AND INCLUDES THE ACTIONS OF A CONTROLLER DIRECTING A PROCESSOR TO PROCESS PERSONAL DATA.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Processing": {
+      "term": "Processing",
+      "definition": "MEANS THE COLLECTION, USE, SALE, STORAGE, DISCLOSURE, ANALYSIS, DELETION, OR MODIFICATION OF PERSONAL DATA AND INCLUDES THE ACTIONS OF A CONTROLLER DIRECTING A PROCESSOR TO PROCESS PERSONAL DATA.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Processor": {
+      "term": "Processor",
+      "definition": "MEANS A PERSON THAT PROCESSES PERSONAL DATA ON BEHALF OF A CONTROLLER.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Profiling": {
+      "term": "Profiling",
+      "definition": "MEANS ANY FORM OF AUTOMATED PROCESSING OF PERSONAL DATA TO EVALUATE, ANALYZE, OR PREDICT PERSONAL ASPECTS CONCERNING AN IDENTIFIED OR IDENTIFIABLE INDIVIDUAL'S ECONOMIC SITUATION, HEALTH, PERSONAL PREFERENCES, INTERESTS, RELIABILITY, BEHAVIOR, LOCATION, OR MOVEMENTS.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Protected Health Information": {
+      "term": "Protected Health Information",
+      "definition": "HAS THE MEANING ESTABLISHED IN 45 CFR 160.103.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Pseudonymous Data": {
+      "term": "Pseudonymous Data",
+      "definition": "MEANS PERSONAL DATA THAT CAN NO LONGER BE ATTRIBUTED TO A SPECIFIC INDIVIDUAL WITHOUT THE USE OF ADDITIONAL INFORMATION IF THE ADDITIONAL INFORMATION IS KEPT SEPARATELY AND IS SUBJECT TO TECHNICAL AND ORGANIZATIONAL MEASURES TO ENSURE THAT THE PERSONAL DATA ARE NOT ATTRIBUTED TO A SPECIFIC INDIVIDUAL.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Sale": {
+      "term": "Sale",
+      "definition": "(a) MEANS THE EXCHANGE OF PERSONAL DATA FOR MONETARY OR OTHER VALUABLE CONSIDERATION BY A CONTROLLER TO A THIRD PARTY. (b) DOES NOT INCLUDE THE FOLLOWING: (I) THE DISCLOSURE OF PERSONAL DATA TO A PROCESSOR THAT PROCESSES THE PERSONAL DATA ON BEHALF OF A CONTROLLER; (II) THE DISCLOSURE OF PERSONAL DATA TO A THIRD PARTY FOR PURPOSES OF PROVIDING A PRODUCT OR SERVICE REQUESTED BY THE CONSUMER; (III) THE DISCLOSURE OR TRANSFER OF PERSONAL DATA TO AN AFFILIATE OF THE CONTROLLER; (IV) THE DISCLOSURE OR TRANSFER TO A THIRD PARTY OF PERSONAL DATA AS AN ASSET THAT IS PART OF A PROPOSED OR ACTUAL MERGER, ACQUISITION, BANKRUPTCY, OR OTHER TRANSACTION IN WHICH THE THIRD PARTY ASSUMES CONTROL OF ALL OR PART OF THE CONTROLLER'S ASSETS; OR (V) THE DISCLOSURE OF PERSONAL DATA: (A) THAT A CONSUMER DIRECTS THE CONTROLLER TO DISCLOSE OR INTENTIONALLY DISCLOSES BY USING THE CONTROLLER TO INTERACT WITH A THIRD PARTY; OR (B) INTENTIONALLY MADE AVAILABLE BY A CONSUMER TO THE GENERAL PUBLIC VIA A CHANNEL OF MASS MEDIA.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Sell": {
+      "term": "Sell",
+      "definition": "(a) MEANS THE EXCHANGE OF PERSONAL DATA FOR MONETARY OR OTHER VALUABLE CONSIDERATION BY A CONTROLLER TO A THIRD PARTY. (b) DOES NOT INCLUDE THE FOLLOWING: (I) THE DISCLOSURE OF PERSONAL DATA TO A PROCESSOR THAT PROCESSES THE PERSONAL DATA ON BEHALF OF A CONTROLLER; (II) THE DISCLOSURE OF PERSONAL DATA TO A THIRD PARTY FOR PURPOSES OF PROVIDING A PRODUCT OR SERVICE REQUESTED BY THE CONSUMER; (III) THE DISCLOSURE OR TRANSFER OF PERSONAL DATA TO AN AFFILIATE OF THE CONTROLLER; (IV) THE DISCLOSURE OR TRANSFER TO A THIRD PARTY OF PERSONAL DATA AS AN ASSET THAT IS PART OF A PROPOSED OR ACTUAL MERGER, ACQUISITION, BANKRUPTCY, OR OTHER TRANSACTION IN WHICH THE THIRD PARTY ASSUMES CONTROL OF ALL OR PART OF THE CONTROLLER'S ASSETS; OR (V) THE DISCLOSURE OF PERSONAL DATA: (A) THAT A CONSUMER DIRECTS THE CONTROLLER TO DISCLOSE OR INTENTIONALLY DISCLOSES BY USING THE CONTROLLER TO INTERACT WITH A THIRD PARTY; OR (B) INTENTIONALLY MADE AVAILABLE BY A CONSUMER TO THE GENERAL PUBLIC VIA A CHANNEL OF MASS MEDIA.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Sold": {
+      "term": "Sold",
+      "definition": "(a) MEANS THE EXCHANGE OF PERSONAL DATA FOR MONETARY OR OTHER VALUABLE CONSIDERATION BY A CONTROLLER TO A THIRD PARTY. (b) DOES NOT INCLUDE THE FOLLOWING: (I) THE DISCLOSURE OF PERSONAL DATA TO A PROCESSOR THAT PROCESSES THE PERSONAL DATA ON BEHALF OF A CONTROLLER; (II) THE DISCLOSURE OF PERSONAL DATA TO A THIRD PARTY FOR PURPOSES OF PROVIDING A PRODUCT OR SERVICE REQUESTED BY THE CONSUMER; (III) THE DISCLOSURE OR TRANSFER OF PERSONAL DATA TO AN AFFILIATE OF THE CONTROLLER; (IV) THE DISCLOSURE OR TRANSFER TO A THIRD PARTY OF PERSONAL DATA AS AN ASSET THAT IS PART OF A PROPOSED OR ACTUAL MERGER, ACQUISITION, BANKRUPTCY, OR OTHER TRANSACTION IN WHICH THE THIRD PARTY ASSUMES CONTROL OF ALL OR PART OF THE CONTROLLER'S ASSETS; OR (V) THE DISCLOSURE OF PERSONAL DATA: (A) THAT A CONSUMER DIRECTS THE CONTROLLER TO DISCLOSE OR INTENTIONALLY DISCLOSES BY USING THE CONTROLLER TO INTERACT WITH A THIRD PARTY; OR (B) INTENTIONALLY MADE AVAILABLE BY A CONSUMER TO THE GENERAL PUBLIC VIA A CHANNEL OF MASS MEDIA.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Sensitive Data": {
+      "term": "Sensitive Data",
+      "definition": "MEANS: (a) PERSONAL DATA REVEALING RACIAL OR ETHNIC ORIGIN, RELIGIOUS BELIEFS, A MENTAL OR PHYSICAL HEALTH CONDITION OR DIAGNOSIS, SEX LIFE OR SEXUAL ORIENTATION, OR CITIZENSHIP OR CITIZENSHIP STATUS; (b) GENETIC OR BIOMETRIC DATA THAT MAY BE PROCESSED FOR THE PURPOSE OF UNIQUELY IDENTIFYING AN INDIVIDUAL; OR (c) PERSONAL DATA FROM A KNOWN CHILD.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Targeted Advertising": {
+      "term": "Targeted Advertising",
+      "definition": "(a) MEANS DISPLAYING TO A CONSUMER AN ADVERTISEMENT THAT IS SELECTED BASED ON PERSONAL DATA OBTAINED OR INFERRED OVER TIME FROM THE CONSUMER'S ACTIVITIES ACROSS NONAFFILIATED WEBSITES, APPLICATIONS, OR ONLINE SERVICES TO PREDICT CONSUMER PREFERENCES OR INTERESTS; AND (b) DOES NOT INCLUDE: (I) ADVERTISING TO A CONSUMER IN RESPONSE TO THE CONSUMER'S REQUEST FOR INFORMATION OR FEEDBACK; (II) ADVERTISEMENTS BASED ON ACTIVITIES WITHIN A CONTROLLER'S OWN WEBSITES OR ONLINE APPLICATIONS; (III) ADVERTISEMENTS BASED ON THE CONTEXT OF A CONSUMER'S CURRENT SEARCH QUERY, VISIT TO A WEBSITE, OR ONLINE APPLICATION; OR (IV) PROCESSING PERSONAL DATA SOLELY FOR MEASURING OR REPORTING ADVERTISING PERFORMANCE, REACH, OR FREQUENCY.",
+      "section": "6-1-1303",
+      "notes": ""
+    },
+    "Third Party": {
+      "term": "Third Party",
+      "definition": "MEANS A PERSON, PUBLIC AUTHORITY, AGENCY, OR BODY OTHER THAN A CONSUMER, CONTROLLER, PROCESSOR, OR AFFILIATE OF THE PROCESSOR OR THE CONTROLLER.",
+      "section": "6-1-1303",
+      "notes": ""
+    }
+  },
+  "requirements": [
+    {
+      "id": "79c672c8-359a-4784-93e2-4534c292ee31",
+      "description": "Statute applies to controllers conducting business in Colorado or targeting Colorado residents who meet volume thresholds",
+      "citation": {
+        "section": "6-1-1304(1)",
+        "quoted_text": "THIS PART 13 APPLIES TO A CONTROLLER THAT: (a) CONDUCTS BUSINESS IN COLORADO OR PRODUCES OR DELIVERS COMMERCIAL PRODUCTS OR SERVICES THAT ARE INTENTIONALLY TARGETED TO RESIDENTS OF COLORADO; AND (b) SATISFIES ONE OR BOTH OF THE FOLLOWING THRESHOLDS: (I) CONTROLS OR PROCESSES THE PERSONAL DATA OF ONE HUNDRED THOUSAND CONSUMERS OR MORE DURING A CALENDAR YEAR; OR (II) DERIVES REVENUE OR RECEIVES A DISCOUNT ON THE PRICE OF GOODS OR SERVICES FROM THE SALE OF PERSONAL DATA AND PROCESSES OR CONTROLS THE PERSONAL DATA OF TWENTY-FIVE THOUSAND CONSUMERS OR MORE.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          16,
+          16
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Conducts business in Colorado or targets Colorado residents",
+        "Processes 100,000+ consumers' data per year OR derives revenue from sale of personal data and processes 25,000+ consumers' data"
+      ],
+      "source_section": "6-1-1304",
+      "obligation_type": "must"
+    },
+    {
+      "id": "4b13c91b-96d5-4d02-8e88-b98847b663f7",
+      "description": "Data exemptions: HIPAA protected health information, health-care information under state law, substance abuse patient information, human subjects research data, HIPAA compliance documents, patient safety work product, and de-identified healthcare data are exempt from the statute",
+      "citation": {
+        "section": "6-1-1304(2)(a)-(g)",
+        "quoted_text": "THIS PART 13 DOES NOT APPLY TO: (a) PROTECTED HEALTH INFORMATION THAT IS COLLECTED, STORED, AND PROCESSED BY A COVERED ENTITY OR ITS BUSINESS ASSOCIATES; (b) HEALTH-CARE INFORMATION THAT IS GOVERNED BY PART 8 OF ARTICLE 1 OF TITLE 25... (c) PATIENT IDENTIFYING INFORMATION... (d) IDENTIFIABLE PRIVATE INFORMATION... (e) INFORMATION AND DOCUMENTS CREATED BY A COVERED ENTITY FOR PURPOSES OF COMPLYING WITH HIPAA... (f) PATIENT SAFETY WORK PRODUCT... (g) INFORMATION THAT IS: (I) DE-IDENTIFIED IN ACCORDANCE WITH THE REQUIREMENTS FOR DE-IDENTIFICATION SET FORTH IN 45 CFR 164; AND (II) DERIVED FROM ANY OF THE HEALTH-CARE-RELATED INFORMATION DESCRIBED IN THIS SECTION.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          273,
+          274
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "All entities",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Data falls within specified healthcare and research categories"
+      ],
+      "source_section": "6-1-1304",
+      "obligation_type": "may_not"
+    },
+    {
+      "id": "a80e428b-f150-4f5c-9fc3-2c163dbcb640",
+      "description": "Data exemptions: Fair Credit Reporting Act activities, Gramm-Leach-Bliley Act data, Driver's Privacy Protection Act data, COPPA-regulated data, FERPA-regulated data, employment records, air carrier data, securities association data, public utility customer data, and state/local government data are exempt",
+      "citation": {
+        "section": "6-1-1304(2)(i)-(o)",
+        "quoted_text": "THIS PART 13 DOES NOT APPLY TO: (i)...AN ACTIVITY INVOLVING THE COLLECTION, MAINTENANCE, DISCLOSURE, SALE, COMMUNICATION, OR USE OF ANY PERSONAL DATA BEARING ON A CONSUMER'S CREDITWORTHINESS, CREDIT STANDING, CREDIT CAPACITY... (j) PERSONAL DATA: (I) COLLECTED AND MAINTAINED FOR PURPOSES OF ARTICLE 22 OF TITLE 10; (II) COLLECTED, PROCESSED, SOLD, OR DISCLOSED PURSUANT TO THE FEDERAL 'GRAMM-LEACH-BLILEY ACT'... (III) COLLECTED, PROCESSED, SOLD, OR DISCLOSED PURSUANT TO THE FEDERAL 'DRIVER'S PRIVACY PROTECTION ACT OF 1994'... (IV) REGULATED BY THE FEDERAL 'CHILDREN'S ONLINE PRIVACY PROTECTION ACT OF 1998'... (V) REGULATED BY THE FEDERAL 'FAMILY EDUCATIONAL RIGHTS AND PRIVACY ACT OF 1974'... (k) DATA MAINTAINED FOR EMPLOYMENT RECORDS PURPOSES... (o) DATA MAINTAINED BY A STATE INSTITUTION OF HIGHER EDUCATION... IF THE DATA IS COLLECTED, MAINTAINED, DISCLOSED, COMMUNICATED, AND USED AS AUTHORIZED BY STATE AND FEDERAL LAW FOR NONCOMMERCIAL PURPOSES.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          314,
+          315
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "All entities",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Data is regulated by or exempt under specified federal or state laws"
+      ],
+      "source_section": "6-1-1304",
+      "obligation_type": "may_not"
+    },
+    {
+      "id": "deedebc9-b4d2-4850-912a-625776a7c3d1",
+      "description": "Scope limitations: Statute does not apply where compliance would violate evidentiary privilege, does not prevent privileged communications, does not apply to protected speech by third parties, and does not apply to purely personal or household activities",
+      "citation": {
+        "section": "6-1-1304(3)(b)-(e)",
+        "quoted_text": "THE OBLIGATIONS IMPOSED ON CONTROLLERS OR PROCESSORS UNDER THIS PART 13 DO NOT: (b) APPLY WHERE COMPLIANCE BY THE CONTROLLER OR PROCESSOR WITH THIS PART 13 WOULD VIOLATE AN EVIDENTIARY PRIVILEGE UNDER COLORADO LAW; (c) PREVENT A CONTROLLER OR PROCESSOR FROM PROVIDING PERSONAL DATA CONCERNING A CONSUMER TO A PERSON COVERED BY AN EVIDENTIARY PRIVILEGE... (d) APPLY TO INFORMATION MADE AVAILABLE BY A THIRD PARTY THAT THE CONTROLLER HAS A REASONABLE BASIS TO BELIEVE IS PROTECTED SPEECH... (e) APPLY TO THE PROCESSING OF PERSONAL DATA BY AN INDIVIDUAL IN THE COURSE OF A PURELY PERSONAL OR HOUSEHOLD ACTIVITY.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          429,
+          430
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Specified circumstances exist"
+      ],
+      "source_section": "6-1-1304",
+      "obligation_type": "may_not"
+    },
+    {
+      "id": "57e0c16f-5369-4550-b5f4-fcd924cdf887",
+      "description": "Processing under exemptions must be limited to necessary, reasonable, and proportionate purposes and only for expressly listed purposes",
+      "citation": {
+        "section": "6-1-1304(4)",
+        "quoted_text": "PERSONAL DATA THAT ARE PROCESSED BY A CONTROLLER PURSUANT TO AN EXCEPTION PROVIDED BY THIS SECTION: (a) SHALL NOT BE PROCESSED FOR ANY PURPOSE OTHER THAN A PURPOSE EXPRESSLY LISTED IN THIS SECTION OR AS OTHERWISE AUTHORIZED BY THIS PART 13; AND (b) SHALL BE PROCESSED SOLELY TO THE EXTENT THAT THE PROCESSING IS NECESSARY, REASONABLE, AND PROPORTIONATE TO THE SPECIFIC PURPOSE OR PURPOSES LISTED IN THIS SECTION OR AS OTHERWISE AUTHORIZED BY THIS PART 13.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          443,
+          444
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Processing under an exemption"
+      ],
+      "source_section": "6-1-1304",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "4d5bd564-e1ce-4d38-90f4-884e437f3cbb",
+      "description": "Processors must adhere to controller instructions and assist controller in meeting consumer rights obligations, security obligations, breach notification, and data protection assessments",
+      "citation": {
+        "section": "6-1-1305(2)",
+        "quoted_text": "PROCESSORS SHALL ADHERE TO THE INSTRUCTIONS OF THE CONTROLLER AND ASSIST THE CONTROLLER TO MEET ITS OBLIGATIONS UNDER THIS PART 13. TAKING INTO ACCOUNT THE NATURE OF PROCESSING AND THE INFORMATION AVAILABLE TO THE PROCESSOR, THE PROCESSOR SHALL ASSIST THE CONTROLLER BY: (a) TAKING APPROPRIATE TECHNICAL AND ORGANIZATIONAL MEASURES, INSOFAR AS THIS IS POSSIBLE, FOR THE FULFILLMENT OF THE CONTROLLER'S OBLIGATION TO RESPOND TO CONSUMER REQUESTS TO EXERCISE THEIR RIGHTS PURSUANT TO SECTION 6-1-1306; (b) HELPING TO MEET THE CONTROLLER'S OBLIGATIONS IN RELATION TO THE SECURITY OF PROCESSING THE PERSONAL DATA AND IN RELATION TO THE NOTIFICATION OF A BREACH OF THE SECURITY OF THE SYSTEM PURSUANT TO SECTION 6-1-716; AND (c) PROVIDING INFORMATION TO THE CONTROLLER NECESSARY TO ENABLE THE CONTROLLER TO CONDUCT AND DOCUMENT ANY DATA PROTECTION ASSESSMENTS REQUIRED BY SECTION 6-1-1309.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          16,
+          16
+        ],
+        "match_type": "exact"
+      },
+      "category": "operational",
+      "applies_to": "Processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Always"
+      ],
+      "source_section": "6-1-1305",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "2fcdf8c9-34c7-4063-b9ba-9b9e3d5643d2",
+      "description": "Processors must ensure persons processing data are subject to confidentiality duties and must only engage subcontractors after providing controller opportunity to object pursuant to written contract",
+      "citation": {
+        "section": "6-1-1305(3)",
+        "quoted_text": "NOTWITHSTANDING THE INSTRUCTIONS OF THE CONTROLLER, A PROCESSOR SHALL: (a) ENSURE THAT EACH PERSON PROCESSING THE PERSONAL DATA IS SUBJECT TO A DUTY OF CONFIDENTIALITY WITH RESPECT TO THE DATA; AND (b) ENGAGE A SUBCONTRACTOR ONLY AFTER PROVIDING THE CONTROLLER WITH AN OPPORTUNITY TO OBJECT AND PURSUANT TO A WRITTEN CONTRACT IN ACCORDANCE WITH SUBSECTION (5) OF THIS SECTION THAT REQUIRES THE SUBCONTRACTOR TO MEET THE OBLIGATIONS OF THE PROCESSOR WITH RESPECT TO THE PERSONAL DATA.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          480,
+          481
+        ],
+        "match_type": "contains"
+      },
+      "category": "operational",
+      "applies_to": "Processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Always"
+      ],
+      "source_section": "6-1-1305",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "994b8f05-3831-4d60-9faf-7633faf78667",
+      "description": "Controllers and processors must implement appropriate technical and organizational security measures appropriate to the risk with clear allocation of responsibilities",
+      "citation": {
+        "section": "6-1-1305(4)",
+        "quoted_text": "TAKING INTO ACCOUNT THE CONTEXT OF PROCESSING, THE CONTROLLER AND THE PROCESSOR SHALL IMPLEMENT APPROPRIATE TECHNICAL AND ORGANIZATIONAL MEASURES TO ENSURE A LEVEL OF SECURITY APPROPRIATE TO THE RISK AND ESTABLISH A CLEAR ALLOCATION OF THE RESPONSIBILITIES BETWEEN THEM TO IMPLEMENT THE MEASURES.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          23,
+          23
+        ],
+        "match_type": "exact"
+      },
+      "category": "technical",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Always"
+      ],
+      "source_section": "6-1-1305",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "1d1a833a-5d02-467d-8153-235a60b0d621",
+      "description": "Processing by processor must be governed by binding contract setting out processing instructions, data types, duration, security requirements, data return/deletion, audit rights, and subcontractor obligations",
+      "citation": {
+        "section": "6-1-1305(5)",
+        "quoted_text": "PROCESSING BY A PROCESSOR MUST BE GOVERNED BY A CONTRACT BETWEEN THE CONTROLLER AND THE PROCESSOR THAT IS BINDING ON BOTH PARTIES AND THAT SETS OUT: (a) THE PROCESSING INSTRUCTIONS TO WHICH THE PROCESSOR IS BOUND, INCLUDING THE NATURE AND PURPOSE OF THE PROCESSING; (b) THE TYPE OF PERSONAL DATA SUBJECT TO THE PROCESSING, AND THE DURATION OF THE PROCESSING; (c) THE REQUIREMENTS IMPOSED BY THIS SUBSECTION (5) AND SUBSECTIONS (3) AND (4) OF THIS SECTION; AND (d) THE FOLLOWING REQUIREMENTS: (I) AT THE CHOICE OF THE CONTROLLER, THE PROCESSOR SHALL DELETE OR RETURN ALL PERSONAL DATA TO THE CONTROLLER AS REQUESTED AT THE END OF THE PROVISION OF SERVICES, UNLESS RETENTION OF THE PERSONAL DATA IS REQUIRED BY LAW; (II)(A) THE PROCESSOR SHALL MAKE AVAILABLE TO THE CONTROLLER ALL INFORMATION NECESSARY TO DEMONSTRATE COMPLIANCE WITH THE OBLIGATIONS IN THIS PART 13; AND (B) THE PROCESSOR SHALL ALLOW FOR, AND CONTRIBUTE TO, REASONABLE AUDITS AND INSPECTIONS BY THE CONTROLLER OR THE CONTROLLER'S DESIGNATED AUDITOR...",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          16,
+          16
+        ],
+        "match_type": "exact_normalized"
+      },
+      "category": "operational",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Processing relationship exists"
+      ],
+      "source_section": "6-1-1305",
+      "obligation_type": "must"
+    },
+    {
+      "id": "d310a452-3fc4-4934-ba94-0b6260766eb2",
+      "description": "Controllers must provide clear and conspicuous opt-out mechanism for targeted advertising and sale of personal data, and must honor universal opt-out mechanisms meeting AG technical specifications (mandatory after July 1, 2024)",
+      "citation": {
+        "section": "6-1-1306(1)(a)",
+        "quoted_text": "A CONSUMER HAS THE RIGHT TO OPT OUT OF THE PROCESSING OF PERSONAL DATA CONCERNING THE CONSUMER FOR PURPOSES OF: (A) TARGETED ADVERTISING; (B) THE SALE OF PERSONAL DATA; OR (C) PROFILING IN FURTHERANCE OF DECISIONS THAT PRODUCE LEGAL OR SIMILARLY SIGNIFICANT EFFECTS... A CONTROLLER THAT PROCESSES PERSONAL DATA FOR PURPOSES OF TARGETED ADVERTISING OR THE SALE OF PERSONAL DATA SHALL PROVIDE A CLEAR AND CONSPICUOUS METHOD TO EXERCISE THE RIGHT TO OPT OUT... EFFECTIVE JULY 1, 2024, A CONTROLLER THAT PROCESSES PERSONAL DATA FOR PURPOSES OF TARGETED ADVERTISING OR THE SALE OF PERSONAL DATA SHALL ALLOW CONSUMERS TO EXERCISE THE RIGHT TO OPT OUT... BY CONTROLLERS THROUGH A USER-SELECTED UNIVERSAL OPT-OUT MECHANISM THAT MEETS THE TECHNICAL SPECIFICATIONS ESTABLISHED BY THE ATTORNEY GENERAL PURSUANT TO SECTION 6-1-1313.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          574,
+          575
+        ],
+        "match_type": "contains"
+      },
+      "category": "technical",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Processes data for targeted advertising, sale, or profiling for legally significant decisions"
+      ],
+      "source_section": "6-1-1306",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "812f7213-b0c4-4664-9a5c-b670e4c7bc73",
+      "description": "Controllers must respond to consumer rights requests (access, correction, deletion, portability) within 45 days, extendable by 45 days if reasonably necessary, and must provide first request free (may charge for subsequent requests within 12 months using state fee schedule)",
+      "citation": {
+        "section": "6-1-1306(2)",
+        "quoted_text": "A CONTROLLER SHALL INFORM A CONSUMER OF ANY ACTION TAKEN ON A REQUEST UNDER SUBSECTION (1) OF THIS SECTION WITHOUT UNDUE DELAY AND, IN ANY EVENT, WITHIN FORTY-FIVE DAYS AFTER RECEIPT OF THE REQUEST. THE CONTROLLER MAY EXTEND THE FORTY-FIVE-DAY PERIOD BY FORTY-FIVE ADDITIONAL DAYS WHERE REASONABLY NECESSARY... UPON REQUEST, A CONTROLLER SHALL PROVIDE TO THE CONSUMER THE INFORMATION SPECIFIED IN THIS SECTION FREE OF CHARGE; EXCEPT THAT, FOR A SECOND OR SUBSEQUENT REQUEST WITHIN A TWELVE-MONTH PERIOD, THE CONTROLLER MAY CHARGE AN AMOUNT CALCULATED IN THE MANNER SPECIFIED IN SECTION 24-72-205 (5)(a).",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          666,
+          667
+        ],
+        "match_type": "contains"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Consumer submits rights request"
+      ],
+      "source_section": "6-1-1306",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "fe1c3cfb-7dc8-45b9-9e2e-f92efcf93e49",
+      "description": "Controllers must establish internal appeals process for denied consumer rights requests, respond to appeals within 45 days (extendable by 60 days), inform consumer of AG contact option, and cannot require new account creation or penalize consumers for exercising rights",
+      "citation": {
+        "section": "6-1-1306(3) and 6-1-1308(1)(c)",
+        "quoted_text": "A CONTROLLER SHALL ESTABLISH AN INTERNAL PROCESS WHEREBY CONSUMERS MAY APPEAL A REFUSAL TO TAKE ACTION ON A REQUEST TO EXERCISE ANY OF THE RIGHTS UNDER SUBSECTION (1) OF THIS SECTION... THE APPEAL PROCESS MUST BE CONSPICUOUSLY AVAILABLE AND AS EASY TO USE AS THE PROCESS FOR SUBMITTING A REQUEST... WITHIN FORTY-FIVE DAYS AFTER RECEIPT OF AN APPEAL, A CONTROLLER SHALL INFORM THE CONSUMER OF ANY ACTION TAKEN OR NOT TAKEN IN RESPONSE TO THE APPEAL... THE CONTROLLER SHALL INFORM THE CONSUMER OF THE CONSUMER'S ABILITY TO CONTACT THE ATTORNEY GENERAL... A CONTROLLER SHALL NOT: (I) REQUIRE A CONSUMER TO CREATE A NEW ACCOUNT IN ORDER TO EXERCISE A RIGHT; OR (II) BASED SOLELY ON THE EXERCISE OF A RIGHT AND UNRELATED TO FEASIBILITY OR THE VALUE OF A SERVICE, INCREASE THE COST OF, OR DECREASE THE AVAILABILITY OF, THE PRODUCT OR SERVICE.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          695,
+          696
+        ],
+        "match_type": "contains"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Consumer appeals denied request"
+      ],
+      "source_section": "6-1-1306",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "a5a2d7ee-3d3f-462f-85dd-ff6cb12277a1",
+      "description": "Controller must provide reasonably accessible, clear privacy notice disclosing: data categories collected, processing purposes, how to exercise rights (including appeal), categories shared with third parties, and identity of third parties receiving data; must clearly disclose sales and targeted advertising with opt-out methods",
+      "citation": {
+        "section": "6-1-1308(1)(a)-(b)",
+        "quoted_text": "A CONTROLLER SHALL PROVIDE CONSUMERS WITH A REASONABLY ACCESSIBLE, CLEAR, AND MEANINGFUL PRIVACY NOTICE THAT INCLUDES: (I) THE CATEGORIES OF PERSONAL DATA COLLECTED OR PROCESSED BY THE CONTROLLER OR A PROCESSOR; (II) THE PURPOSES FOR WHICH THE CATEGORIES OF PERSONAL DATA ARE PROCESSED; (III) HOW AND WHERE CONSUMERS MAY EXERCISE THE RIGHTS PURSUANT TO SECTION 6-1-1306, INCLUDING THE CONTROLLER'S CONTACT INFORMATION AND HOW A CONSUMER MAY APPEAL A CONTROLLER'S ACTION WITH REGARD TO THE CONSUMER'S REQUEST; (IV) THE CATEGORIES OF PERSONAL DATA THAT THE CONTROLLER SHARES WITH THIRD PARTIES, IF ANY; AND (V) THE CATEGORIES OF THIRD PARTIES, IF ANY, WITH WHOM THE CONTROLLER SHARES PERSONAL DATA. IF A CONTROLLER SELLS PERSONAL DATA TO THIRD PARTIES OR PROCESSES PERSONAL DATA FOR TARGETED ADVERTISING, THE CONTROLLER SHALL CLEARLY AND CONSPICUOUSLY DISCLOSE THE SALE OR PROCESSING, AS WELL AS THE MANNER IN WHICH A CONSUMER MAY EXERCISE THE RIGHT TO OPT OUT OF THE SALE OR PROCESSING.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          757,
+          758
+        ],
+        "match_type": "contains"
+      },
+      "category": "disclosure",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Always"
+      ],
+      "source_section": "6-1-1308",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "14d20642-82a6-4a3a-92a0-5b38227298b5",
+      "description": "Controllers must comply with data minimization (adequate, relevant, limited to necessary), purpose specification (specify express purposes), avoid secondary use (no incompatible purposes without consent), data security (reasonable measures appropriate to volume/scope/nature), non-discrimination (no unlawful discrimination), and sensitive data consent (obtain consent before processing sensitive data or children's data)",
+      "citation": {
+        "section": "6-1-1308(2)-(7)",
+        "quoted_text": "A CONTROLLER SHALL SPECIFY THE EXPRESS PURPOSES FOR WHICH PERSONAL DATA ARE COLLECTED AND PROCESSED... A CONTROLLER'S COLLECTION OF PERSONAL DATA MUST BE ADEQUATE, RELEVANT, AND LIMITED TO WHAT IS REASONABLY NECESSARY IN RELATION TO THE SPECIFIED PURPOSES... A CONTROLLER SHALL NOT PROCESS PERSONAL DATA FOR PURPOSES THAT ARE NOT REASONABLY NECESSARY TO OR COMPATIBLE WITH THE SPECIFIED PURPOSES FOR WHICH THE PERSONAL DATA ARE PROCESSED, UNLESS THE CONTROLLER FIRST OBTAINS THE CONSUMER'S CONSENT... A CONTROLLER SHALL TAKE REASONABLE MEASURES TO SECURE PERSONAL DATA DURING BOTH STORAGE AND USE FROM UNAUTHORIZED ACQUISITION... A CONTROLLER SHALL NOT PROCESS PERSONAL DATA IN VIOLATION OF STATE OR FEDERAL LAWS THAT PROHIBIT UNLAWFUL DISCRIMINATION AGAINST CONSUMERS... A CONTROLLER SHALL NOT PROCESS A CONSUMER'S SENSITIVE DATA WITHOUT FIRST OBTAINING THE CONSUMER'S CONSENT OR, IN THE CASE OF THE PROCESSING OF PERSONAL DATA CONCERNING A KNOWN CHILD, WITHOUT FIRST OBTAINING CONSENT FROM THE CHILD'S PARENT OR LAWFUL GUARDIAN.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          795,
+          796
+        ],
+        "match_type": "contains"
+      },
+      "category": "disclosure",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Always"
+      ],
+      "source_section": "6-1-1308",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "777783c1-fbb7-461a-9696-229e1145bf93",
+      "description": "Controllers must conduct and document data protection assessments for high-risk processing (targeted advertising, profiling with risk of harm, sale of personal data, or processing sensitive data), identifying and weighing benefits against risks with safeguards; assessments available to AG on request and confidential under open records law",
+      "citation": {
+        "section": "6-1-1309",
+        "quoted_text": "A CONTROLLER SHALL NOT CONDUCT PROCESSING THAT PRESENTS A HEIGHTENED RISK OF HARM TO A CONSUMER WITHOUT CONDUCTING AND DOCUMENTING A DATA PROTECTION ASSESSMENT OF EACH OF ITS PROCESSING ACTIVITIES THAT INVOLVE PERSONAL DATA ACQUIRED ON OR AFTER THE EFFECTIVE DATE OF THIS SECTION THAT PRESENT A HEIGHTENED RISK OF HARM TO A CONSUMER... 'PROCESSING THAT PRESENTS A HEIGHTENED RISK OF HARM TO A CONSUMER' INCLUDES THE FOLLOWING: (a) PROCESSING PERSONAL DATA FOR PURPOSES OF TARGETED ADVERTISING OR FOR PROFILING IF THE PROFILING PRESENTS A REASONABLY FORESEEABLE RISK OF: (I) UNFAIR OR DECEPTIVE TREATMENT OF, OR UNLAWFUL DISPARATE IMPACT ON, CONSUMERS; (II) FINANCIAL OR PHYSICAL INJURY TO CONSUMERS... (b) SELLING PERSONAL DATA; AND (c) PROCESSING SENSITIVE DATA... A CONTROLLER SHALL MAKE THE DATA PROTECTION ASSESSMENT AVAILABLE TO THE ATTORNEY GENERAL UPON REQUEST... DATA PROTECTION ASSESSMENTS ARE CONFIDENTIAL AND EXEMPT FROM PUBLIC INSPECTION AND COPYING UNDER THE 'COLORADO OPEN RECORDS ACT'...",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          824,
+          825
+        ],
+        "match_type": "contains"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Conducts high-risk processing"
+      ],
+      "source_section": "6-1-1309",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "48f2c3d4-9c0a-469a-b68f-a28db66c638b",
+      "description": "No private right of action for violations; Attorney General and district attorneys have exclusive enforcement authority; violations are deceptive trade practices; cure period required before enforcement action (60 days after notice, until January 1, 2025)",
+      "citation": {
+        "section": "6-1-1310 and 6-1-1311",
+        "quoted_text": "NOTWITHSTANDING ANY PROVISION IN PART 1 OF THIS ARTICLE 1, THIS PART 13 DOES NOT AUTHORIZE A PRIVATE RIGHT OF ACTION FOR A VIOLATION OF THIS PART 13 OR ANY OTHER PROVISION OF LAW... NOTWITHSTANDING ANY OTHER PROVISION OF THIS ARTICLE 1, THE ATTORNEY GENERAL AND DISTRICT ATTORNEYS HAVE EXCLUSIVE AUTHORITY TO ENFORCE THIS PART 13 BY BRINGING AN ACTION IN THE NAME OF THE STATE OR AS PARENS PATRIAE ON BEHALF OF PERSONS RESIDING IN THE STATE... FOR PURPOSES ONLY OF ENFORCEMENT OF THIS PART 13 BY THE ATTORNEY GENERAL OR A DISTRICT ATTORNEY, A VIOLATION OF THIS PART 13 IS A DECEPTIVE TRADE PRACTICE... PRIOR TO ANY ENFORCEMENT ACTION PURSUANT TO SUBSECTION (1)(a) OF THIS SECTION, THE ATTORNEY GENERAL OR DISTRICT ATTORNEY MUST ISSUE A NOTICE OF VIOLATION TO THE CONTROLLER IF A CURE IS DEEMED POSSIBLE. IF THE CONTROLLER FAILS TO CURE THE VIOLATION WITHIN SIXTY DAYS AFTER RECEIPT OF THE NOTICE OF VIOLATION, AN ACTION MAY BE BROUGHT PURSUANT TO THIS SECTION. THIS SUBSECTION (1)(d) IS REPEALED, EFFECTIVE JANUARY 1, 2025.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          877,
+          878
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "All entities; Attorney General and district attorneys",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Violation of CPA"
+      ],
+      "source_section": "6-1-1310 and 6-1-1311",
+      "obligation_type": "may_not"
+    },
+    {
+      "id": "f92628e7-1d80-4763-b56d-fd9e7e9e302e",
+      "description": "Short title of statute is 'Colorado Privacy Act'",
+      "citation": {
+        "section": "6-1-1301",
+        "quoted_text": "THE SHORT TITLE OF THIS PART 13 IS THE 'COLORADO PRIVACY ACT'.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          12,
+          12
+        ],
+        "match_type": "exact_normalized"
+      },
+      "category": "legal_framework",
+      "applies_to": "All entities",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Always"
+      ],
+      "source_section": "6-1-1301",
+      "obligation_type": "must"
+    },
+    {
+      "id": "d4ff6c26-ad83-4d16-841b-4016e8497987",
+      "description": "Controllers not required to reidentify de-identified data, comply with consumer requests for de-identified data when not reasonably capable or unreasonably burdensome (with specific conditions), or maintain data in identifiable form solely for compliance purposes",
+      "citation": {
+        "section": "6-1-1307(1)",
+        "quoted_text": "THIS PART 13 DOES NOT REQUIRE A CONTROLLER OR PROCESSOR TO DO ANY OF THE FOLLOWING SOLELY FOR PURPOSES OF COMPLYING WITH THIS PART 13: (a) REIDENTIFY DE-IDENTIFIED DATA; (b) COMPLY WITH AN AUTHENTICATED CONSUMER REQUEST TO ACCESS, CORRECT, DELETE, OR PROVIDE PERSONAL DATA IN A PORTABLE FORMAT PURSUANT TO SECTION 6-1-1306 (1), IF ALL OF THE FOLLOWING ARE TRUE: (I) (A) THE CONTROLLER IS NOT REASONABLY CAPABLE OF ASSOCIATING THE REQUEST WITH THE PERSONAL DATA; OR (B) IT WOULD BE UNREASONABLY BURDENSOME FOR THE CONTROLLER TO ASSOCIATE THE REQUEST WITH THE PERSONAL DATA; (II) THE CONTROLLER DOES NOT USE THE PERSONAL DATA TO RECOGNIZE OR RESPOND TO THE SPECIFIC CONSUMER WHO IS THE SUBJECT OF THE PERSONAL DATA OR ASSOCIATE THE PERSONAL DATA WITH OTHER PERSONAL DATA ABOUT THE SAME SPECIFIC CONSUMER; AND (III) THE CONTROLLER DOES NOT SELL THE PERSONAL DATA TO ANY THIRD PARTY OR OTHERWISE VOLUNTARILY DISCLOSE THE PERSONAL DATA TO ANY THIRD PARTY, EXCEPT AS OTHERWISE AUTHORIZED BY THE CONSUMER; OR (c) MAINTAIN DATA IN IDENTIFIABLE FORM OR COLLECT, OBTAIN, RETAIN, OR ACCESS ANY DATA OR TECHNOLOGY IN ORDER TO ENABLE THE CONTROLLER TO ASSOCIATE AN AUTHENTICATED CONSUMER REQUEST WITH PERSONAL DATA.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          16,
+          16
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Processing de-identified data"
+      ],
+      "source_section": "6-1-1307",
+      "obligation_type": "may_not"
+    },
+    {
+      "id": "ce8f7b47-e6b7-481d-870e-8f1032e0759c",
+      "description": "Controllers using de-identified data must exercise reasonable oversight to monitor compliance with contractual commitments and take appropriate steps to address breaches; pseudonymous data rights do not apply if controller demonstrates information necessary to identify consumer is kept separately with effective controls preventing access",
+      "citation": {
+        "section": "6-1-1307(2)-(3)",
+        "quoted_text": "A CONTROLLER THAT USES DE-IDENTIFIED DATA SHALL EXERCISE REASONABLE OVERSIGHT TO MONITOR COMPLIANCE WITH ANY CONTRACTUAL COMMITMENTS TO WHICH THE DE-IDENTIFIED DATA ARE SUBJECT AND SHALL TAKE APPROPRIATE STEPS TO ADDRESS ANY BREACHES OF CONTRACTUAL COMMITMENTS. THE RIGHTS CONTAINED IN SECTION 6-1-1306 (1)(b) TO (1)(e) DO NOT APPLY TO PSEUDONYMOUS DATA IF THE CONTROLLER CAN DEMONSTRATE THAT THE INFORMATION NECESSARY TO IDENTIFY THE CONSUMER IS KEPT SEPARATELY AND IS SUBJECT TO EFFECTIVE TECHNICAL AND ORGANIZATIONAL CONTROLS THAT PREVENT THE CONTROLLER FROM ACCESSING THE INFORMATION.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          746,
+          747
+        ],
+        "match_type": "contains"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Uses de-identified or pseudonymous data"
+      ],
+      "source_section": "6-1-1307",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "4bef1dc5-1d29-4ede-8474-0ca7c4771721",
+      "description": "No private right of action for violations; liability shall be allocated among multiple violating parties according to principles of comparative fault",
+      "citation": {
+        "section": "6-1-1310",
+        "quoted_text": "NOTWITHSTANDING ANY PROVISION IN PART 1 OF THIS ARTICLE 1, THIS PART 13 DOES NOT AUTHORIZE A PRIVATE RIGHT OF ACTION FOR A VIOLATION OF THIS PART 13 OR ANY OTHER PROVISION OF LAW. THIS SUBSECTION (1) NEITHER RELIEVES ANY PARTY FROM ANY DUTIES OR OBLIGATIONS IMPOSED, NOR ALTERS ANY INDEPENDENT RIGHTS THAT CONSUMERS HAVE, UNDER OTHER LAWS, INCLUDING THIS ARTICLE 1, THE STATE CONSTITUTION, OR THE UNITED STATES CONSTITUTION. WHERE MORE THAN ONE CONTROLLER OR PROCESSOR, OR BOTH A CONTROLLER AND A PROCESSOR, INVOLVED IN THE SAME PROCESSING VIOLATES THIS PART 13, THE LIABILITY SHALL BE ALLOCATED AMONG THE PARTIES ACCORDING TO PRINCIPLES OF COMPARATIVE FAULT.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          877,
+          878
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Multiple parties violate statute"
+      ],
+      "source_section": "6-1-1310",
+      "obligation_type": "must"
+    },
+    {
+      "id": "a90e3baf-0ce5-446a-abfe-20badad7b2ff",
+      "description": "Attorney General and district attorneys have exclusive enforcement authority through state actions or parens patriae actions; violations are deceptive trade practices; cure period required before enforcement (60 days after notice of violation, repealed January 1, 2025)",
+      "citation": {
+        "section": "6-1-1311",
+        "quoted_text": "NOTWITHSTANDING ANY OTHER PROVISION OF THIS ARTICLE 1, THE ATTORNEY GENERAL AND DISTRICT ATTORNEYS HAVE EXCLUSIVE AUTHORITY TO ENFORCE THIS PART 13 BY BRINGING AN ACTION IN THE NAME OF THE STATE OR AS PARENS PATRIAE ON BEHALF OF PERSONS RESIDING IN THE STATE TO ENFORCE THIS PART 13 AS PROVIDED IN THIS ARTICLE 1, INCLUDING SEEKING AN INJUNCTION TO ENJOIN A VIOLATION OF THIS PART 13... FOR PURPOSES ONLY OF ENFORCEMENT OF THIS PART 13 BY THE ATTORNEY GENERAL OR A DISTRICT ATTORNEY, A VIOLATION OF THIS PART 13 IS A DECEPTIVE TRADE PRACTICE. PRIOR TO ANY ENFORCEMENT ACTION PURSUANT TO SUBSECTION (1)(a) OF THIS SECTION, THE ATTORNEY GENERAL OR DISTRICT ATTORNEY MUST ISSUE A NOTICE OF VIOLATION TO THE CONTROLLER IF A CURE IS DEEMED POSSIBLE. IF THE CONTROLLER FAILS TO CURE THE VIOLATION WITHIN SIXTY DAYS AFTER RECEIPT OF THE NOTICE OF VIOLATION, AN ACTION MAY BE BROUGHT PURSUANT TO THIS SECTION. THIS SUBSECTION (1)(d) IS REPEALED, EFFECTIVE JANUARY 1, 2025.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          892,
+          893
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Attorney General and district attorneys; Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Violation occurs"
+      ],
+      "source_section": "6-1-1311",
+      "obligation_type": "must"
+    },
+    {
+      "id": "324e515b-3713-4fbf-9d8d-14510c3cda52",
+      "description": "Colorado Privacy Act supersedes and preempts all local government laws, ordinances, resolutions, or regulations regarding processing of personal data by controllers or processors",
+      "citation": {
+        "section": "6-1-1312",
+        "quoted_text": "THIS PART 13 SUPERSEDES AND PREEMPTS LAWS, ORDINANCES, RESOLUTIONS, REGULATIONS, OR THE EQUIVALENT ADOPTED BY ANY STATUTORY OR HOME RULE MUNICIPALITY, COUNTY, OR CITY AND COUNTY REGARDING THE PROCESSING OF PERSONAL DATA BY CONTROLLERS OR PROCESSORS.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          916,
+          917
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Local governments; Controllers and processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Always"
+      ],
+      "source_section": "6-1-1312",
+      "obligation_type": "must"
+    },
+    {
+      "id": "2f22fec9-a0c2-438b-8e16-3b227f959fe3",
+      "description": "Attorney General may promulgate rules for carrying out the statute; must adopt rules by July 1, 2023 for universal opt-out mechanism technical specifications with specific requirements (consumer-friendly, not default setting, consistent with other jurisdictions, allows controller authentication)",
+      "citation": {
+        "section": "6-1-1313",
+        "quoted_text": "THE ATTORNEY GENERAL MAY PROMULGATE RULES FOR THE PURPOSE OF CARRYING OUT THIS PART 13. BY JULY 1, 2023, THE ATTORNEY GENERAL SHALL ADOPT RULES THAT DETAIL THE TECHNICAL SPECIFICATIONS FOR ONE OR MORE UNIVERSAL OPT-OUT MECHANISMS THAT CLEARLY COMMUNICATE A CONSUMER'S AFFIRMATIVE, FREELY GIVEN, AND UNAMBIGUOUS CHOICE TO OPT OUT OF THE PROCESSING OF PERSONAL DATA FOR PURPOSES OF TARGETED ADVERTISING OR THE SALE OF PERSONAL DATA PURSUANT TO SECTION 6-1-1306 (1)(a)(I)(A) OR (1)(a)(I)(B)... THE RULES MUST: (a) NOT PERMIT THE MANUFACTURER OF A PLATFORM, BROWSER, DEVICE, OR ANY OTHER PRODUCT OFFERING A UNIVERSAL OPT-OUT MECHANISM TO UNFAIRLY DISADVANTAGE ANOTHER CONTROLLER; (b) REQUIRE CONTROLLERS TO INFORM CONSUMERS ABOUT THE OPT-OUT CHOICES AVAILABLE UNDER SECTION 6-1-1306 (1)(a)(I); (c) NOT ADOPT A MECHANISM THAT IS A DEFAULT SETTING, BUT RATHER CLEARLY REPRESENTS THE CONSUMER'S AFFIRMATIVE, FREELY GIVEN, AND UNAMBIGUOUS CHOICE TO OPT OUT OF THE PROCESSING OF PERSONAL DATA PURSUANT TO SECTION 6-1-1306 (1)(a)(I)(A) OR (1)(a)(I)(B); (d) ADOPT A MECHANISM THAT IS CONSUMER-FRIENDLY, CLEARLY DESCRIBED, AND EASY TO USE BY THE AVERAGE CONSUMER; (e) ADOPT A MECHANISM THAT IS AS CONSISTENT AS POSSIBLE WITH ANY OTHER SIMILAR MECHANISM REQUIRED BY LAW OR REGULATION IN THE UNITED STATES; AND (f) PERMIT THE CONTROLLER TO ACCURATELY AUTHENTICATE THE CONSUMER AS A RESIDENT OF THIS STATE AND DETERMINE THAT THE MECHANISM REPRESENTS A LEGITIMATE REQUEST TO OPT OUT OF THE PROCESSING OF PERSONAL DATA FOR PURPOSES OF TARGETED ADVERTISING OR THE SALE OF PERSONAL DATA PURSUANT TO SECTION 6-1-1306 (1)(a)(I)(A) OR (1)(a)(I)(B).",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          924,
+          925
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Attorney General; Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Rulemaking authority exercised"
+      ],
+      "source_section": "6-1-1313",
+      "obligation_type": "shall"
+    }
+  ],
+  "unverified_items": [],
+  "metadata": {
+    "source_file": "State Privacy Laws\\Colorado Privacy Law.pdf",
+    "total_requirements": 23,
+    "verified_count": 23,
+    "output_format": "json",
+    "sections_processed": [
+      "6-1-1304",
+      "6-1-1305",
+      "6-1-1306",
+      "6-1-1308",
+      "6-1-1309",
+      "6-1-1310 and 6-1-1311",
+      "6-1-1301",
+      "6-1-1307",
+      "6-1-1310",
+      "6-1-1311",
+      "6-1-1312",
+      "6-1-1313"
+    ],
+    "requirements_per_section": {
+      "6-1-1304": 5,
+      "6-1-1305": 4,
+      "6-1-1306": 3,
+      "6-1-1308": 2,
+      "6-1-1309": 1,
+      "6-1-1310 and 6-1-1311": 1,
+      "6-1-1301": 1,
+      "6-1-1307": 2,
+      "6-1-1310": 1,
+      "6-1-1311": 1,
+      "6-1-1312": 1,
+      "6-1-1313": 1
+    },
+    "total_extracted": 23,
+    "defined_terms": [
+      "Affiliate",
+      "Authenticate",
+      "Business Associate",
+      "Child",
+      "Consent",
+      "Consumer",
+      "Controller",
+      "Covered Entity",
+      "Dark Pattern",
+      "Decisions that produce legal or similarly significant effects concerning a consumer",
+      "De-identified Data",
+      "Health-care Facility",
+      "Health-care Information",
+      "Health-care Provider",
+      "HIPAA",
+      "Identified or Identifiable Individual",
+      "Personal Data",
+      "Process",
+      "Processing",
+      "Processor",
+      "Profiling",
+      "Protected Health Information",
+      "Pseudonymous Data",
+      "Sale",
+      "Sell",
+      "Sold",
+      "Sensitive Data",
+      "Targeted Advertising",
+      "Third Party"
+    ],
+    "section_types": {
+      "6-1-1301": "general",
+      "6-1-1302": "legislative_intent",
+      "6-1-1303": "definitions",
+      "6-1-1304": "applicability",
+      "6-1-1305": "controller_duties",
+      "6-1-1306": "consumer_rights",
+      "6-1-1307": "controller_duties",
+      "6-1-1308": "controller_duties",
+      "6-1-1309": "controller_duties",
+      "6-1-1310": "general",
+      "6-1-1311": "enforcement",
+      "6-1-1312": "general",
+      "6-1-1313": "general"
+    }
+  },
+  "legislative_intent": {
+    "purpose": "To empower Colorado consumers to protect their privacy and require companies to be responsible custodians of data as they continue to innovate. The Act provides consumers rights to access, correct, and delete personal data and to opt out of the sale and certain uses of personal data, while imposing obligations on companies to safeguard personal data, provide transparent information about data usage, and conduct data protection assessments.",
+    "findings": [
+      "The people of Colorado regard their privacy as a fundamental right and an essential element of their individual freedom",
+      "Colorado's Constitution explicitly provides the right to privacy under Section 7 of Article II, and fundamental privacy rights have long been, and continue to be, integral to protecting Coloradans and to safeguarding our democratic republic",
+      "Ongoing advances in technology have produced exponential growth in the volume and variety of personal data being generated, collected, stored, and analyzed and these advances present both promise and potential peril",
+      "The ability to harness and use data in positive ways is driving innovation and brings beneficial technologies to society, but it has also created risks to privacy and freedom",
+      "The unauthorized disclosure of personal information and loss of privacy can have devastating impacts ranging from financial fraud, identity theft, and unnecessary costs in personal time and finances to destruction of property, harassment, reputational damage, emotional distress, and physical harm",
+      "Technological innovation and new uses of data can help solve societal problems and improve lives, and it is possible to build a world where technological innovation and privacy can coexist",
+      "States across the United States are looking to this Part 13 and similar models to enact state-based data privacy requirements and to exercise the leadership that is lacking at the national level"
+    ],
+    "source_sections": [
+      "6-1-1302"
+    ],
+    "raw_text": "(1) THE GENERAL ASSEMBLY HEREBY: (a) FINDS THAT: (I) THE PEOPLE OF COLORADO REGARD THEIR PRIVACY AS A FUNDAMENTAL RIGHT AND AN ESSENTIAL ELEMENT OF THEIR INDIVIDUAL FREEDOM; (II) COLORADO'S CONSTITUTION EXPLICITLY PROVIDES THE RIGHT TO PRIVACY UNDER SECTION 7 OF ARTICLE II, AND FUNDAMENTAL PRIVACY RIGHTS HAVE LONG BEEN, AND CONTINUE TO BE, INTEGRAL TO PROTECTING COLORADANS AND TO SAFEGUARDING OUR DEMOCRATIC REPUBLIC; (III) ONGOING ADVANCES IN TECHNOLOGY HAVE PRODUCED EXPONENTIAL GROWTH IN THE VOLUME AND VARIETY OF PERSONAL DATA BEING GENERATED, COLLECTED, STORED, AND ANALYZED AND THESE ADVANCES PRESENT BOTH PROMISE AND POTENTIAL PERIL; (IV) THE ABILITY TO HARNESS AND USE DATA IN POSITIVE WAYS IS DRIVING INNOVATION AND BRINGS BENEFICIAL TECHNOLOGIES TO SOCIETY, BUT IT HAS ALSO CREATED RISKS TO PRIVACY AND FREEDOM; AND (V) THE UNAUTHORIZED DISCLOSURE OF PERSONAL INFORMATION AND LOSS OF PRIVACY CAN HAVE DEVASTATING IMPACTS RANGING FROM FINANCIAL FRAUD, IDENTITY THEFT, AND UNNECESSARY COSTS IN PERSONAL TIME AND FINANCES TO DESTRUCTION OF PROPERTY, HARASSMENT, REPUTATIONAL DAMAGE, EMOTIONAL DISTRESS, AND PHYSICAL HARM; (b) DETERMINES THAT: (I) TECHNOLOGICAL INNOVATION AND NEW USES OF DATA CAN HELP SOLVE SOCIETAL PROBLEMS AND IMPROVE LIVES, AND IT IS POSSIBLE TO BUILD A WORLD WHERE TECHNOLOGICAL INNOVATION AND PRIVACY CAN COEXIST; AND (II) STATES ACROSS THE UNITED STATES ARE LOOKING TO THIS PART 13 AND SIMILAR MODELS TO ENACT STATE-BASED DATA PRIVACY REQUIREMENTS AND TO EXERCISE THE LEADERSHIP THAT IS LACKING AT THE NATIONAL LEVEL; AND (c) DECLARES THAT: (I) BY ENACTING THIS PART 13, COLORADO WILL BE AMONG THE STATES THAT EMPOWER CONSUMERS TO PROTECT THEIR PRIVACY AND REQUIRE COMPANIES TO BE RESPONSIBLE CUSTODIANS OF DATA AS THEY CONTINUE TO INNOVATE; (II) THIS PART 13 ADDRESSES ISSUES OF STATEWIDE CONCERN AND: (A) PROVIDES CONSUMERS THE RIGHT TO ACCESS, CORRECT, AND DELETE PERSONAL DATA AND THE RIGHT TO OPT OUT NOT ONLY OF THE SALE OF PERSONAL DATA BUT ALSO OF THE COLLECTION AND USE OF PERSONAL DATA; (B) IMPOSES AN AFFIRMATIVE OBLIGATION UPON COMPANIES TO SAFEGUARD PERSONAL DATA; TO PROVIDE CLEAR, UNDERSTANDABLE, AND TRANSPARENT INFORMATION TO CONSUMERS ABOUT HOW THEIR PERSONAL DATA ARE USED; AND TO STRENGTHEN COMPLIANCE AND ACCOUNTABILITY BY REQUIRING DATA PROTECTION ASSESSMENTS IN THE COLLECTION AND USE OF PERSONAL DATA; AND (C) EMPOWERS THE ATTORNEY GENERAL AND DISTRICT ATTORNEYS TO ACCESS AND EVALUATE A COMPANY'S DATA PROTECTION ASSESSMENTS, TO IMPOSE PENALTIES WHERE VIOLATIONS OCCUR, AND TO PREVENT FUTURE VIOLATIONS."
+  },
+  "structure": {
+    "name": "Colorado Privacy Act",
+    "citation": "C.R.S. \u00a7 6-1-1301 et seq.",
+    "effective_date": "July 1, 2023",
+    "sections": [
+      {
+        "id": "6-1-1301",
+        "title": "Short title",
+        "section_type": "general",
+        "content": "THE SHORT TITLE OF THIS PART 13 IS THE \"COLORADO PRIVACY ACT\".",
+        "start_line": 1,
+        "end_line": 1,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1302",
+        "title": "Legislative declaration",
+        "section_type": "legislative_intent",
+        "content": "(1) THE GENERAL ASSEMBLY HEREBY: (a) FINDS THAT: (I) THE PEOPLE OF COLORADO REGARD THEIR PRIVACY AS A FUNDAMENTAL RIGHT AND AN ESSENTIAL ELEMENT OF THEIR INDIVIDUAL FREEDOM; (II) COLORADO'S CONSTITUTION...",
+        "start_line": 2,
+        "end_line": 3,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1303",
+        "title": "Definitions",
+        "section_type": "definitions",
+        "content": "AS USED IN THIS PART 13, UNLESS THE CONTEXT OTHERWISE REQUIRES: (1) \"AFFILIATE\" MEANS A LEGAL ENTITY THAT CONTROLS, IS CONTROLLED BY, OR IS UNDER COMMON CONTROL WITH ANOTHER LEGAL ENTITY. AS USED IN...",
+        "start_line": 3,
+        "end_line": 9,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1304",
+        "title": "Applicability of part",
+        "section_type": "applicability",
+        "content": "(1) EXCEPT AS SPECIFIED IN SUBSECTION (2) OF THIS SECTION, THIS PART 13 APPLIES TO A CONTROLLER THAT: (a) CONDUCTS BUSINESS IN COLORADO OR PRODUCES OR DELIVERS COMMERCIAL PRODUCTS OR SERVICES THAT...",
+        "start_line": 9,
+        "end_line": 15,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1305",
+        "title": "Responsibility according to role",
+        "section_type": "controller_duties",
+        "content": "(1) CONTROLLERS AND PROCESSORS SHALL MEET THEIR RESPECTIVE OBLIGATIONS ESTABLISHED UNDER THIS PART 13. (2) PROCESSORS SHALL ADHERE TO THE INSTRUCTIONS OF THE CONTROLLER AND ASSIST THE CONTROLLER...",
+        "start_line": 15,
+        "end_line": 18,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1306",
+        "title": "Consumer personal data rights - repeal",
+        "section_type": "consumer_rights",
+        "content": "(1) CONSUMERS MAY EXERCISE THE FOLLOWING RIGHTS BY SUBMITTING A REQUEST USING THE METHODS SPECIFIED BY THE CONTROLLER IN THE PRIVACY NOTICE REQUIRED UNDER SECTION 6-1-1308 (1)(a). THE METHOD MUST...",
+        "start_line": 18,
+        "end_line": 22,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1307",
+        "title": "Processing de-identified data",
+        "section_type": "controller_duties",
+        "content": "(1) THIS PART 13 DOES NOT REQUIRE A CONTROLLER OR PROCESSOR TO DO ANY OF THE FOLLOWING SOLELY FOR PURPOSES OF COMPLYING WITH THIS PART 13: (a) REIDENTIFY DE-IDENTIFIED DATA; (b) COMPLY WITH AN AU...",
+        "start_line": 22,
+        "end_line": 23,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1308",
+        "title": "Duties of controllers",
+        "section_type": "controller_duties",
+        "content": "(1) Duty of transparency. (a) A CONTROLLER SHALL PROVIDE CONSUMERS WITH A REASONABLY ACCESSIBLE, CLEAR, AND MEANINGFUL PRIVACY NOTICE THAT INCLUDES: (I) THE CATEGORIES OF PERSONAL DATA COLLECTED...",
+        "start_line": 23,
+        "end_line": 25,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1309",
+        "title": "Data protection assessments - attorney general access and evaluation - definition",
+        "section_type": "controller_duties",
+        "content": "(1) A CONTROLLER SHALL NOT CONDUCT PROCESSING THAT PRESENTS A HEIGHTENED RISK OF HARM TO A CONSUMER WITHOUT CONDUCTING AND DOCUMENTING A DATA PROTECTION ASSESSMENT OF EACH OF ITS PROCESSING ACTIV...",
+        "start_line": 25,
+        "end_line": 26,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1310",
+        "title": "Liability",
+        "section_type": "general",
+        "content": "(1) NOTWITHSTANDING ANY PROVISION IN PART 1 OF THIS ARTICLE 1, THIS PART 13 DOES NOT AUTHORIZE A PRIVATE RIGHT OF ACTION FOR A VIOLATION OF THIS PART 13 OR ANY OTHER PROVISION OF LAW. THIS SUBSEC...",
+        "start_line": 26,
+        "end_line": 27,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1311",
+        "title": "Enforcement - penalties - repeal",
+        "section_type": "enforcement",
+        "content": "(1)(a) NOTWITHSTANDING ANY OTHER PROVISION OF THIS ARTICLE 1, THE ATTORNEY GENERAL AND DISTRICT ATTORNEYS HAVE EXCLUSIVE AUTHORITY TO ENFORCE THIS PART 13 BY BRINGING AN ACTION IN THE NAME OF THE...",
+        "start_line": 27,
+        "end_line": 27,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1312",
+        "title": "Preemption - local governments",
+        "section_type": "general",
+        "content": "THIS PART 13 SUPERSEDES AND PREEMPTS LAWS, ORDINANCES, RESOLUTIONS, REGULATIONS, OR THE EQUIVALENT ADOPTED BY ANY STATUTORY OR HOME RULE MUNICIPALITY, COUNTY, OR CITY AND COUNTY REGARDING THE PROC...",
+        "start_line": 27,
+        "end_line": 28,
+        "subsections": []
+      },
+      {
+        "id": "6-1-1313",
+        "title": "Rules - opt-out mechanism",
+        "section_type": "general",
+        "content": "(1) THE ATTORNEY GENERAL MAY PROMULGATE RULES FOR THE PURPOSE OF CARRYING OUT THIS PART 13. (2) BY JULY 1, 2023, THE ATTORNEY GENERAL SHALL ADOPT RULES THAT DETAIL THE TECHNICAL SPECIFICATIONS FO...",
+        "start_line": 28,
+        "end_line": 29,
+        "subsections": []
+      }
+    ],
+    "definitions": {
+      "Affiliate": {
+        "term": "Affiliate",
+        "definition": "MEANS A LEGAL ENTITY THAT CONTROLS, IS CONTROLLED BY, OR IS UNDER COMMON CONTROL WITH ANOTHER LEGAL ENTITY. AS USED IN THIS SUBSECTION (1), \"CONTROL\" MEANS: (a) OWNERSHIP OF, CONTROL OF, OR POWER TO VOTE TWENTY-FIVE PERCENT OR MORE OF THE OUTSTANDING SHARES OF ANY CLASS OF VOTING SECURITY OF THE ENTITY, DIRECTLY OR INDIRECTLY, OR ACTING THROUGH ONE OR MORE OTHER PERSONS; (b) CONTROL IN ANY MANNER OVER THE ELECTION OF A MAJORITY OF THE DIRECTORS, TRUSTEES, OR GENERAL PARTNERS OF THE ENTITY OR OF INDIVIDUALS EXERCISING SIMILAR FUNCTIONS; OR (c) THE POWER TO EXERCISE, DIRECTLY OR INDIRECTLY, A CONTROLLING INFLUENCE OVER THE MANAGEMENT OR POLICIES OF THE ENTITY AS DETERMINED BY THE APPLICABLE PRUDENTIAL REGULATOR, AS THAT TERM IS DEFINED IN 12 U.S.C. SEC. 5481 (24), IF ANY.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Authenticate": {
+        "term": "Authenticate",
+        "definition": "MEANS TO USE REASONABLE MEANS TO DETERMINE THAT A REQUEST TO EXERCISE ANY OF THE RIGHTS IN SECTION 6-1-1306 (1) IS BEING MADE BY OR ON BEHALF OF THE CONSUMER WHO IS ENTITLED TO EXERCISE THE RIGHTS.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Business Associate": {
+        "term": "Business Associate",
+        "definition": "HAS THE MEANING ESTABLISHED IN 45 CFR 160.103.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Child": {
+        "term": "Child",
+        "definition": "MEANS AN INDIVIDUAL UNDER THIRTEEN YEARS OF AGE.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Consent": {
+        "term": "Consent",
+        "definition": "MEANS A CLEAR, AFFIRMATIVE ACT SIGNIFYING A CONSUMER'S FREELY GIVEN, SPECIFIC, INFORMED, AND UNAMBIGUOUS AGREEMENT, SUCH AS BY A WRITTEN STATEMENT, INCLUDING BY ELECTRONIC MEANS, OR OTHER CLEAR, AFFIRMATIVE ACTION BY WHICH THE CONSUMER SIGNIFIES AGREEMENT TO THE PROCESSING OF PERSONAL DATA. THE FOLLOWING DOES NOT CONSTITUTE CONSENT: (a) ACCEPTANCE OF A GENERAL OR BROAD TERMS OF USE OR SIMILAR DOCUMENT THAT CONTAINS DESCRIPTIONS OF PERSONAL DATA PROCESSING ALONG WITH OTHER, UNRELATED INFORMATION; (b) HOVERING OVER, MUTING, PAUSING, OR CLOSING A GIVEN PIECE OF CONTENT; AND (c) AGREEMENT OBTAINED THROUGH DARK PATTERNS.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Consumer": {
+        "term": "Consumer",
+        "definition": "(a) MEANS AN INDIVIDUAL WHO IS A COLORADO RESIDENT ACTING ONLY IN AN INDIVIDUAL OR HOUSEHOLD CONTEXT; AND (b) DOES NOT INCLUDE AN INDIVIDUAL ACTING IN A COMMERCIAL OR EMPLOYMENT CONTEXT, AS A JOB APPLICANT, OR AS A BENEFICIARY OF SOMEONE ACTING IN AN EMPLOYMENT CONTEXT.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Controller": {
+        "term": "Controller",
+        "definition": "MEANS A PERSON THAT, ALONE OR JOINTLY WITH OTHERS, DETERMINES THE PURPOSES FOR AND MEANS OF PROCESSING PERSONAL DATA.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Covered Entity": {
+        "term": "Covered Entity",
+        "definition": "HAS THE MEANING ESTABLISHED IN 45 CFR 160.103.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Dark Pattern": {
+        "term": "Dark Pattern",
+        "definition": "MEANS A USER INTERFACE DESIGNED OR MANIPULATED WITH THE SUBSTANTIAL EFFECT OF SUBVERTING OR IMPAIRING USER AUTONOMY, DECISION-MAKING, OR CHOICE.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Decisions that produce legal or similarly significant effects concerning a consumer": {
+        "term": "Decisions that produce legal or similarly significant effects concerning a consumer",
+        "definition": "MEANS A DECISION THAT RESULTS IN THE PROVISION OR DENIAL OF FINANCIAL OR LENDING SERVICES, HOUSING, INSURANCE, EDUCATION ENROLLMENT OR OPPORTUNITY, CRIMINAL JUSTICE, EMPLOYMENT OPPORTUNITIES, HEALTH-CARE SERVICES, OR ACCESS TO ESSENTIAL GOODS OR SERVICES.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "De-identified Data": {
+        "term": "De-identified Data",
+        "definition": "MEANS DATA THAT CANNOT REASONABLY BE USED TO INFER INFORMATION ABOUT, OR OTHERWISE BE LINKED TO, AN IDENTIFIED OR IDENTIFIABLE INDIVIDUAL, OR A DEVICE LINKED TO SUCH AN INDIVIDUAL, IF THE CONTROLLER THAT POSSESSES THE DATA: (a) TAKES REASONABLE MEASURES TO ENSURE THAT THE DATA CANNOT BE ASSOCIATED WITH AN INDIVIDUAL; (b) PUBLICLY COMMITS TO MAINTAIN AND USE THE DATA ONLY IN A DE-IDENTIFIED FASHION AND NOT ATTEMPT TO RE-IDENTIFY THE DATA; AND (c) CONTRACTUALLY OBLIGATES ANY RECIPIENTS OF THE INFORMATION TO COMPLY WITH THE REQUIREMENTS OF THIS SUBSECTION (11).",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Health-care Facility": {
+        "term": "Health-care Facility",
+        "definition": "MEANS ANY ENTITY THAT IS LICENSED, CERTIFIED, OR OTHERWISE AUTHORIZED OR PERMITTED BY LAW TO ADMINISTER MEDICAL TREATMENT IN THIS STATE.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Health-care Information": {
+        "term": "Health-care Information",
+        "definition": "MEANS INDIVIDUALLY IDENTIFIABLE INFORMATION RELATING TO THE PAST, PRESENT, OR FUTURE HEALTH STATUS OF AN INDIVIDUAL.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Health-care Provider": {
+        "term": "Health-care Provider",
+        "definition": "MEANS A PERSON LICENSED, CERTIFIED, OR REGISTERED IN THIS STATE TO PRACTICE MEDICINE, PHARMACY, CHIROPRACTIC, NURSING, PHYSICAL THERAPY, PODIATRY, DENTISTRY, OPTOMETRY, OCCUPATIONAL THERAPY, OR OTHER HEALING ARTS UNDER TITLE 12.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "HIPAA": {
+        "term": "HIPAA",
+        "definition": "MEANS THE FEDERAL \"HEALTH INSURANCE PORTABILITY AND ACCOUNTABILITY ACT OF 1996\", AS AMENDED, 42 U.S.C. SECS. 1320d TO 1320d-9.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Identified or Identifiable Individual": {
+        "term": "Identified or Identifiable Individual",
+        "definition": "MEANS AN INDIVIDUAL WHO CAN BE READILY IDENTIFIED, DIRECTLY OR INDIRECTLY, IN PARTICULAR BY REFERENCE TO AN IDENTIFIER SUCH AS A NAME, AN IDENTIFICATION NUMBER, SPECIFIC GEOLOCATION DATA, OR AN ONLINE IDENTIFIER.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Personal Data": {
+        "term": "Personal Data",
+        "definition": "(a) MEANS INFORMATION THAT IS LINKED OR REASONABLY LINKABLE TO AN IDENTIFIED OR IDENTIFIABLE INDIVIDUAL; AND (b) DOES NOT INCLUDE DE-IDENTIFIED DATA OR PUBLICLY AVAILABLE INFORMATION. AS USED IN THIS SUBSECTION (17)(b), \"PUBLICLY AVAILABLE INFORMATION\" MEANS INFORMATION THAT IS LAWFULLY MADE AVAILABLE FROM FEDERAL, STATE, OR LOCAL GOVERNMENT RECORDS AND INFORMATION THAT A CONTROLLER HAS A REASONABLE BASIS TO BELIEVE THE CONSUMER HAS LAWFULLY MADE AVAILABLE TO THE GENERAL PUBLIC.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Process": {
+        "term": "Process",
+        "definition": "MEANS THE COLLECTION, USE, SALE, STORAGE, DISCLOSURE, ANALYSIS, DELETION, OR MODIFICATION OF PERSONAL DATA AND INCLUDES THE ACTIONS OF A CONTROLLER DIRECTING A PROCESSOR TO PROCESS PERSONAL DATA.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Processing": {
+        "term": "Processing",
+        "definition": "MEANS THE COLLECTION, USE, SALE, STORAGE, DISCLOSURE, ANALYSIS, DELETION, OR MODIFICATION OF PERSONAL DATA AND INCLUDES THE ACTIONS OF A CONTROLLER DIRECTING A PROCESSOR TO PROCESS PERSONAL DATA.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Processor": {
+        "term": "Processor",
+        "definition": "MEANS A PERSON THAT PROCESSES PERSONAL DATA ON BEHALF OF A CONTROLLER.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Profiling": {
+        "term": "Profiling",
+        "definition": "MEANS ANY FORM OF AUTOMATED PROCESSING OF PERSONAL DATA TO EVALUATE, ANALYZE, OR PREDICT PERSONAL ASPECTS CONCERNING AN IDENTIFIED OR IDENTIFIABLE INDIVIDUAL'S ECONOMIC SITUATION, HEALTH, PERSONAL PREFERENCES, INTERESTS, RELIABILITY, BEHAVIOR, LOCATION, OR MOVEMENTS.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Protected Health Information": {
+        "term": "Protected Health Information",
+        "definition": "HAS THE MEANING ESTABLISHED IN 45 CFR 160.103.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Pseudonymous Data": {
+        "term": "Pseudonymous Data",
+        "definition": "MEANS PERSONAL DATA THAT CAN NO LONGER BE ATTRIBUTED TO A SPECIFIC INDIVIDUAL WITHOUT THE USE OF ADDITIONAL INFORMATION IF THE ADDITIONAL INFORMATION IS KEPT SEPARATELY AND IS SUBJECT TO TECHNICAL AND ORGANIZATIONAL MEASURES TO ENSURE THAT THE PERSONAL DATA ARE NOT ATTRIBUTED TO A SPECIFIC INDIVIDUAL.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Sale": {
+        "term": "Sale",
+        "definition": "(a) MEANS THE EXCHANGE OF PERSONAL DATA FOR MONETARY OR OTHER VALUABLE CONSIDERATION BY A CONTROLLER TO A THIRD PARTY. (b) DOES NOT INCLUDE THE FOLLOWING: (I) THE DISCLOSURE OF PERSONAL DATA TO A PROCESSOR THAT PROCESSES THE PERSONAL DATA ON BEHALF OF A CONTROLLER; (II) THE DISCLOSURE OF PERSONAL DATA TO A THIRD PARTY FOR PURPOSES OF PROVIDING A PRODUCT OR SERVICE REQUESTED BY THE CONSUMER; (III) THE DISCLOSURE OR TRANSFER OF PERSONAL DATA TO AN AFFILIATE OF THE CONTROLLER; (IV) THE DISCLOSURE OR TRANSFER TO A THIRD PARTY OF PERSONAL DATA AS AN ASSET THAT IS PART OF A PROPOSED OR ACTUAL MERGER, ACQUISITION, BANKRUPTCY, OR OTHER TRANSACTION IN WHICH THE THIRD PARTY ASSUMES CONTROL OF ALL OR PART OF THE CONTROLLER'S ASSETS; OR (V) THE DISCLOSURE OF PERSONAL DATA: (A) THAT A CONSUMER DIRECTS THE CONTROLLER TO DISCLOSE OR INTENTIONALLY DISCLOSES BY USING THE CONTROLLER TO INTERACT WITH A THIRD PARTY; OR (B) INTENTIONALLY MADE AVAILABLE BY A CONSUMER TO THE GENERAL PUBLIC VIA A CHANNEL OF MASS MEDIA.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Sell": {
+        "term": "Sell",
+        "definition": "(a) MEANS THE EXCHANGE OF PERSONAL DATA FOR MONETARY OR OTHER VALUABLE CONSIDERATION BY A CONTROLLER TO A THIRD PARTY. (b) DOES NOT INCLUDE THE FOLLOWING: (I) THE DISCLOSURE OF PERSONAL DATA TO A PROCESSOR THAT PROCESSES THE PERSONAL DATA ON BEHALF OF A CONTROLLER; (II) THE DISCLOSURE OF PERSONAL DATA TO A THIRD PARTY FOR PURPOSES OF PROVIDING A PRODUCT OR SERVICE REQUESTED BY THE CONSUMER; (III) THE DISCLOSURE OR TRANSFER OF PERSONAL DATA TO AN AFFILIATE OF THE CONTROLLER; (IV) THE DISCLOSURE OR TRANSFER TO A THIRD PARTY OF PERSONAL DATA AS AN ASSET THAT IS PART OF A PROPOSED OR ACTUAL MERGER, ACQUISITION, BANKRUPTCY, OR OTHER TRANSACTION IN WHICH THE THIRD PARTY ASSUMES CONTROL OF ALL OR PART OF THE CONTROLLER'S ASSETS; OR (V) THE DISCLOSURE OF PERSONAL DATA: (A) THAT A CONSUMER DIRECTS THE CONTROLLER TO DISCLOSE OR INTENTIONALLY DISCLOSES BY USING THE CONTROLLER TO INTERACT WITH A THIRD PARTY; OR (B) INTENTIONALLY MADE AVAILABLE BY A CONSUMER TO THE GENERAL PUBLIC VIA A CHANNEL OF MASS MEDIA.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Sold": {
+        "term": "Sold",
+        "definition": "(a) MEANS THE EXCHANGE OF PERSONAL DATA FOR MONETARY OR OTHER VALUABLE CONSIDERATION BY A CONTROLLER TO A THIRD PARTY. (b) DOES NOT INCLUDE THE FOLLOWING: (I) THE DISCLOSURE OF PERSONAL DATA TO A PROCESSOR THAT PROCESSES THE PERSONAL DATA ON BEHALF OF A CONTROLLER; (II) THE DISCLOSURE OF PERSONAL DATA TO A THIRD PARTY FOR PURPOSES OF PROVIDING A PRODUCT OR SERVICE REQUESTED BY THE CONSUMER; (III) THE DISCLOSURE OR TRANSFER OF PERSONAL DATA TO AN AFFILIATE OF THE CONTROLLER; (IV) THE DISCLOSURE OR TRANSFER TO A THIRD PARTY OF PERSONAL DATA AS AN ASSET THAT IS PART OF A PROPOSED OR ACTUAL MERGER, ACQUISITION, BANKRUPTCY, OR OTHER TRANSACTION IN WHICH THE THIRD PARTY ASSUMES CONTROL OF ALL OR PART OF THE CONTROLLER'S ASSETS; OR (V) THE DISCLOSURE OF PERSONAL DATA: (A) THAT A CONSUMER DIRECTS THE CONTROLLER TO DISCLOSE OR INTENTIONALLY DISCLOSES BY USING THE CONTROLLER TO INTERACT WITH A THIRD PARTY; OR (B) INTENTIONALLY MADE AVAILABLE BY A CONSUMER TO THE GENERAL PUBLIC VIA A CHANNEL OF MASS MEDIA.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Sensitive Data": {
+        "term": "Sensitive Data",
+        "definition": "MEANS: (a) PERSONAL DATA REVEALING RACIAL OR ETHNIC ORIGIN, RELIGIOUS BELIEFS, A MENTAL OR PHYSICAL HEALTH CONDITION OR DIAGNOSIS, SEX LIFE OR SEXUAL ORIENTATION, OR CITIZENSHIP OR CITIZENSHIP STATUS; (b) GENETIC OR BIOMETRIC DATA THAT MAY BE PROCESSED FOR THE PURPOSE OF UNIQUELY IDENTIFYING AN INDIVIDUAL; OR (c) PERSONAL DATA FROM A KNOWN CHILD.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Targeted Advertising": {
+        "term": "Targeted Advertising",
+        "definition": "(a) MEANS DISPLAYING TO A CONSUMER AN ADVERTISEMENT THAT IS SELECTED BASED ON PERSONAL DATA OBTAINED OR INFERRED OVER TIME FROM THE CONSUMER'S ACTIVITIES ACROSS NONAFFILIATED WEBSITES, APPLICATIONS, OR ONLINE SERVICES TO PREDICT CONSUMER PREFERENCES OR INTERESTS; AND (b) DOES NOT INCLUDE: (I) ADVERTISING TO A CONSUMER IN RESPONSE TO THE CONSUMER'S REQUEST FOR INFORMATION OR FEEDBACK; (II) ADVERTISEMENTS BASED ON ACTIVITIES WITHIN A CONTROLLER'S OWN WEBSITES OR ONLINE APPLICATIONS; (III) ADVERTISEMENTS BASED ON THE CONTEXT OF A CONSUMER'S CURRENT SEARCH QUERY, VISIT TO A WEBSITE, OR ONLINE APPLICATION; OR (IV) PROCESSING PERSONAL DATA SOLELY FOR MEASURING OR REPORTING ADVERTISING PERFORMANCE, REACH, OR FREQUENCY.",
+        "section": "6-1-1303",
+        "notes": ""
+      },
+      "Third Party": {
+        "term": "Third Party",
+        "definition": "MEANS A PERSON, PUBLIC AUTHORITY, AGENCY, OR BODY OTHER THAN A CONSUMER, CONTROLLER, PROCESSOR, OR AFFILIATE OF THE PROCESSOR OR THE CONTROLLER.",
+        "section": "6-1-1303",
+        "notes": ""
+      }
+    },
+    "legislative_intent": {
+      "purpose": "To empower Colorado consumers to protect their privacy and require companies to be responsible custodians of data as they continue to innovate. The Act provides consumers rights to access, correct, and delete personal data and to opt out of the sale and certain uses of personal data, while imposing obligations on companies to safeguard personal data, provide transparent information about data usage, and conduct data protection assessments.",
+      "findings": [
+        "The people of Colorado regard their privacy as a fundamental right and an essential element of their individual freedom",
+        "Colorado's Constitution explicitly provides the right to privacy under Section 7 of Article II, and fundamental privacy rights have long been, and continue to be, integral to protecting Coloradans and to safeguarding our democratic republic",
+        "Ongoing advances in technology have produced exponential growth in the volume and variety of personal data being generated, collected, stored, and analyzed and these advances present both promise and potential peril",
+        "The ability to harness and use data in positive ways is driving innovation and brings beneficial technologies to society, but it has also created risks to privacy and freedom",
+        "The unauthorized disclosure of personal information and loss of privacy can have devastating impacts ranging from financial fraud, identity theft, and unnecessary costs in personal time and finances to destruction of property, harassment, reputational damage, emotional distress, and physical harm",
+        "Technological innovation and new uses of data can help solve societal problems and improve lives, and it is possible to build a world where technological innovation and privacy can coexist",
+        "States across the United States are looking to this Part 13 and similar models to enact state-based data privacy requirements and to exercise the leadership that is lacking at the national level"
+      ],
+      "source_sections": [
+        "6-1-1302"
+      ],
+      "raw_text": "(1) THE GENERAL ASSEMBLY HEREBY: (a) FINDS THAT: (I) THE PEOPLE OF COLORADO REGARD THEIR PRIVACY AS A FUNDAMENTAL RIGHT AND AN ESSENTIAL ELEMENT OF THEIR INDIVIDUAL FREEDOM; (II) COLORADO'S CONSTITUTION EXPLICITLY PROVIDES THE RIGHT TO PRIVACY UNDER SECTION 7 OF ARTICLE II, AND FUNDAMENTAL PRIVACY RIGHTS HAVE LONG BEEN, AND CONTINUE TO BE, INTEGRAL TO PROTECTING COLORADANS AND TO SAFEGUARDING OUR DEMOCRATIC REPUBLIC; (III) ONGOING ADVANCES IN TECHNOLOGY HAVE PRODUCED EXPONENTIAL GROWTH IN THE VOLUME AND VARIETY OF PERSONAL DATA BEING GENERATED, COLLECTED, STORED, AND ANALYZED AND THESE ADVANCES PRESENT BOTH PROMISE AND POTENTIAL PERIL; (IV) THE ABILITY TO HARNESS AND USE DATA IN POSITIVE WAYS IS DRIVING INNOVATION AND BRINGS BENEFICIAL TECHNOLOGIES TO SOCIETY, BUT IT HAS ALSO CREATED RISKS TO PRIVACY AND FREEDOM; AND (V) THE UNAUTHORIZED DISCLOSURE OF PERSONAL INFORMATION AND LOSS OF PRIVACY CAN HAVE DEVASTATING IMPACTS RANGING FROM FINANCIAL FRAUD, IDENTITY THEFT, AND UNNECESSARY COSTS IN PERSONAL TIME AND FINANCES TO DESTRUCTION OF PROPERTY, HARASSMENT, REPUTATIONAL DAMAGE, EMOTIONAL DISTRESS, AND PHYSICAL HARM; (b) DETERMINES THAT: (I) TECHNOLOGICAL INNOVATION AND NEW USES OF DATA CAN HELP SOLVE SOCIETAL PROBLEMS AND IMPROVE LIVES, AND IT IS POSSIBLE TO BUILD A WORLD WHERE TECHNOLOGICAL INNOVATION AND PRIVACY CAN COEXIST; AND (II) STATES ACROSS THE UNITED STATES ARE LOOKING TO THIS PART 13 AND SIMILAR MODELS TO ENACT STATE-BASED DATA PRIVACY REQUIREMENTS AND TO EXERCISE THE LEADERSHIP THAT IS LACKING AT THE NATIONAL LEVEL; AND (c) DECLARES THAT: (I) BY ENACTING THIS PART 13, COLORADO WILL BE AMONG THE STATES THAT EMPOWER CONSUMERS TO PROTECT THEIR PRIVACY AND REQUIRE COMPANIES TO BE RESPONSIBLE CUSTODIANS OF DATA AS THEY CONTINUE TO INNOVATE; (II) THIS PART 13 ADDRESSES ISSUES OF STATEWIDE CONCERN AND: (A) PROVIDES CONSUMERS THE RIGHT TO ACCESS, CORRECT, AND DELETE PERSONAL DATA AND THE RIGHT TO OPT OUT NOT ONLY OF THE SALE OF PERSONAL DATA BUT ALSO OF THE COLLECTION AND USE OF PERSONAL DATA; (B) IMPOSES AN AFFIRMATIVE OBLIGATION UPON COMPANIES TO SAFEGUARD PERSONAL DATA; TO PROVIDE CLEAR, UNDERSTANDABLE, AND TRANSPARENT INFORMATION TO CONSUMERS ABOUT HOW THEIR PERSONAL DATA ARE USED; AND TO STRENGTHEN COMPLIANCE AND ACCOUNTABILITY BY REQUIRING DATA PROTECTION ASSESSMENTS IN THE COLLECTION AND USE OF PERSONAL DATA; AND (C) EMPOWERS THE ATTORNEY GENERAL AND DISTRICT ATTORNEYS TO ACCESS AND EVALUATE A COMPANY'S DATA PROTECTION ASSESSMENTS, TO IMPOSE PENALTIES WHERE VIOLATIONS OCCUR, AND TO PREVENT FUTURE VIOLATIONS."
+    }
+  }
+}

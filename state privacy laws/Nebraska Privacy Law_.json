@@ -1,0 +1,1818 @@
+{
+  "statute_name": "Nebraska Privacy Law",
+  "effective_date": "January 1, 2025",
+  "definitions": {
+    "Affiliate": {
+      "term": "Affiliate",
+      "definition": "A legal entity that controls, is controlled by, or is under common control with another legal entity or shares common branding with another legal entity. Control or controlled means: (a) The ownership of, or power to vote, more than fifty percent of the outstanding shares of any class of voting security of a company; (b) The control in any manner over the election of a majority of the directors or of individuals exercising similar functions; or (c) The power to exercise controlling influence over the management of a company",
+      "section": "2",
+      "notes": ""
+    },
+    "Authenticate": {
+      "term": "Authenticate",
+      "definition": "To verify through reasonable means that the consumer who is entitled to exercise the consumer's rights under sections 7 to 11 of this act, or a person on behalf of such consumer, is the same consumer exercising those consumer rights with respect to the personal data at issue",
+      "section": "2",
+      "notes": ""
+    },
+    "Biometric data": {
+      "term": "Biometric data",
+      "definition": "Data that is generated to identify a specific individual through an automatic measurement of a biological characteristic of such individual and includes any: (i) Fingerprint; (ii) Voice print; (iii) Retina image; (iv) Iris image; or (v) Unique biological pattern or characteristic. Does not include physical or digital photographs, video or audio recordings, or data generated from such (except when generated to identify a specific individual), or information collected, used, or stored for health care treatment, payment, or operations under HIPAA",
+      "section": "2",
+      "notes": ""
+    },
+    "Business associate": {
+      "term": "Business associate",
+      "definition": "Has the meaning assigned to the term by the Health Insurance Portability and Accountability Act",
+      "section": "2",
+      "notes": ""
+    },
+    "Child": {
+      "term": "Child",
+      "definition": "An individual younger than thirteen years of age",
+      "section": "2",
+      "notes": ""
+    },
+    "Consent": {
+      "term": "Consent",
+      "definition": "When referring to a consumer, a clear and affirmative act signifying a consumer's freely given, specific, informed, and unambiguous agreement to process personal data relating to the consumer, including a statement written by electronic means or any other unambiguous affirmative action by the consumer. Does not include: (i) Acceptance of a general or broad term of use or similar document that contains a description of personal data processing along with other, unrelated information; (ii) Hovering over, muting, pausing, or closing a given piece of content; or (iii) Agreement obtained through the use of a dark pattern",
+      "section": "2",
+      "notes": ""
+    },
+    "Consumer": {
+      "term": "Consumer",
+      "definition": "An individual who is a resident of this state acting only in an individual or household context. Does not include an individual acting in a commercial or employment context",
+      "section": "2",
+      "notes": ""
+    },
+    "Controller": {
+      "term": "Controller",
+      "definition": "An individual or other person that, alone or jointly with others, determines the purpose and means of processing personal data",
+      "section": "2",
+      "notes": ""
+    },
+    "Covered entity": {
+      "term": "Covered entity",
+      "definition": "Has the same meaning as defined in 45 C.F.R. 160.103, as such regulation existed on January 1, 2024",
+      "section": "2",
+      "notes": ""
+    },
+    "Dark pattern": {
+      "term": "Dark pattern",
+      "definition": "A user interface designed or manipulated with the effect of substantially subverting or impairing user autonomy, decision-making, or choice, and includes any practice determined by the Federal Trade Commission to be a dark pattern as of January 1, 2024",
+      "section": "2",
+      "notes": ""
+    },
+    "Decision that produces a legal or similarly significant effect concerning a consumer": {
+      "term": "Decision that produces a legal or similarly significant effect concerning a consumer",
+      "definition": "A decision made by the controller that results in the provision or denial by the controller of: (a) Financial and lending services; (b) Housing, insurance, or health care services; (c) Education enrollment; (d) Employment opportunities; (e) Criminal justice; or (f) Access to basic necessities, such as food and water",
+      "section": "2",
+      "notes": ""
+    },
+    "Deidentified data": {
+      "term": "Deidentified data",
+      "definition": "Data that cannot reasonably be linked to an identified or identifiable individual, or a device linked to that individual",
+      "section": "2",
+      "notes": ""
+    },
+    "Health care provider": {
+      "term": "Health care provider",
+      "definition": "Has the same meaning as in the Health Insurance Portability and Accountability Act",
+      "section": "2",
+      "notes": ""
+    },
+    "Health Insurance Portability and Accountability Act": {
+      "term": "Health Insurance Portability and Accountability Act",
+      "definition": "The federal Health Insurance Portability and Accountability Act of 1996, as such act existed on January 1, 2024",
+      "section": "2",
+      "notes": ""
+    },
+    "Health record": {
+      "term": "Health record",
+      "definition": "Any written, printed, or electronically recorded material maintained by a health care provider in the course of providing health care services to an individual that concerns the individual and the services provided to such individual, and includes: (a) The substance of any communication made by an individual to a health care provider in confidence during or in connection with the provision of health care services; or (b) Information otherwise acquired by the health care provider about an individual in confidence and in connection with health care services provided to the individual",
+      "section": "2",
+      "notes": ""
+    },
+    "Identified or identifiable individual": {
+      "term": "Identified or identifiable individual",
+      "definition": "A consumer who can be directly or indirectly readily identified",
+      "section": "2",
+      "notes": ""
+    },
+    "Institution of higher education": {
+      "term": "Institution of higher education",
+      "definition": "Any postsecondary institution or private postsecondary institution as such terms are defined in section 85-2403",
+      "section": "2",
+      "notes": ""
+    },
+    "Known child": {
+      "term": "Known child",
+      "definition": "A child under circumstances where a controller has actual knowledge of, or willfully disregards, the child's age",
+      "section": "2",
+      "notes": ""
+    },
+    "Nonprofit organization": {
+      "term": "Nonprofit organization",
+      "definition": "Any corporation organized under the Nebraska Nonprofit Corporation Act, any organization exempt from taxation under section 501(c)(3), 501(c)(6), or 501(c)(12) of the Internal Revenue Code, any organization exempt from taxation under section 501(c)(4) of the Internal Revenue Code that is established to detect or prevent insurance-related crime or fraud, and any subsidiary or affiliate of a cooperative corporation organized in this state",
+      "section": "2",
+      "notes": ""
+    },
+    "Personal data": {
+      "term": "Personal data",
+      "definition": "Any information, including sensitive data, that is linked or reasonably linkable to an identified or identifiable individual, and includes pseudonymous data when the data is used by a controller or processor in conjunction with additional information that reasonably links the data to an identified or identifiable individual. Does not include deidentified data or publicly available information",
+      "section": "2",
+      "notes": ""
+    },
+    "Political organization": {
+      "term": "Political organization",
+      "definition": "A party, committee, association, fund, or other organization, regardless of whether incorporated, that is organized and operated primarily for the purpose of influencing or attempting to influence: (a) The selection, nomination, election, or appointment of an individual to a federal, state, or local public office or an office in a political organization, regardless of whether the individual is selected, nominated, elected, or appointed; or (b) The election of a presidential or vice-presidential elector, regardless of whether the elector is selected, nominated, elected, or appointed",
+      "section": "2",
+      "notes": ""
+    },
+    "Precise geolocation data": {
+      "term": "Precise geolocation data",
+      "definition": "Information derived from technology, including global positioning system level latitude and longitude coordinates or other mechanisms, that directly identifies the specific location of an individual with precision and accuracy within a radius of one thousand seven hundred fifty feet. Does not include the content of communications or any data generated by or connected to an advanced utility metering infrastructure system or to equipment for use by a utility",
+      "section": "2",
+      "notes": ""
+    },
+    "Process or processing": {
+      "term": "Process or processing",
+      "definition": "An operation or set of operations performed, whether by manual or automated means, on personal data or on sets of personal data, such as the collection, use, storage, disclosure, analysis, deletion, or modification of personal data",
+      "section": "2",
+      "notes": ""
+    },
+    "Processor": {
+      "term": "Processor",
+      "definition": "A person that processes personal data on behalf of a controller",
+      "section": "2",
+      "notes": ""
+    },
+    "Profiling": {
+      "term": "Profiling",
+      "definition": "Any form of solely automated processing performed on personal data to evaluate, analyze, or predict personal aspects related to an identified or identifiable individual's economic situation, health, personal preferences, interests, reliability, behavior, location, or movements",
+      "section": "2",
+      "notes": ""
+    },
+    "Protected health information": {
+      "term": "Protected health information",
+      "definition": "Has the same meaning as in the Health Insurance Portability and Accountability Act",
+      "section": "2",
+      "notes": ""
+    },
+    "Pseudonymous data": {
+      "term": "Pseudonymous data",
+      "definition": "Any personal information that cannot be attributed to a specific individual without the use of additional information, provided that the additional information is kept separately and is subject to appropriate technical and organizational measures to ensure that the personal data is not attributed to an identified or identifiable individual",
+      "section": "2",
+      "notes": ""
+    },
+    "Publicly available information": {
+      "term": "Publicly available information",
+      "definition": "Information that is lawfully made available through government records, or information that a business has a reasonable basis to believe is lawfully made available to the general public through widely distributed media, by a consumer, or by a person to whom a consumer has disclosed the information, unless the consumer has restricted the information to a specific audience",
+      "section": "2",
+      "notes": ""
+    },
+    "Sale of personal data": {
+      "term": "Sale of personal data",
+      "definition": "The exchange of personal data for monetary or other valuable consideration by the controller to a third party. Does not include: (i) The disclosure of personal data to a processor that processes the personal data on the controller's behalf; (ii) The disclosure of personal data to a third party for purposes of providing a product or service requested by the consumer; (iii) The disclosure or transfer of personal data to an affiliate of the controller; (iv) The disclosure of information that the consumer intentionally made available to the general public through a mass media channel and did not restrict to a specific audience; or (v) The disclosure or transfer of personal data to a third party as an asset in which the third party assumes control of all or part of the controller's assets that is part of a proposed or actual merger, acquisition, bankruptcy, or other transaction",
+      "section": "2",
+      "notes": ""
+    },
+    "Sensitive data": {
+      "term": "Sensitive data",
+      "definition": "A category of personal data, and includes: (a) Personal data revealing racial or ethnic origin, religious beliefs, mental or physical health diagnosis, sexual orientation, or citizenship or immigration status; (b) Genetic or biometric data that is processed for the purpose of uniquely identifying an individual; (c) Personal data collected from a known child; or (d) Precise geolocation data",
+      "section": "2",
+      "notes": ""
+    },
+    "State agency": {
+      "term": "State agency",
+      "definition": "A department, commission, board, office, council, authority, or other agency in any branch of state government that is created by the constitution or a statute of this state, including any university system or any postsecondary institution as defined in section 85-2403",
+      "section": "2",
+      "notes": ""
+    },
+    "Targeted advertising": {
+      "term": "Targeted advertising",
+      "definition": "Displaying to a consumer an advertisement that is selected based on personal data obtained from that consumer's activities over time and across nonaffiliated websites or online applications to predict the consumer's preferences or interests. Does not include: (i) An advertisement that is based on activities within a controller's own websites or online applications, is based on the context of a consumer's current search query, visit to a website, or online application, or is directed to a consumer in response to the consumer's request for information or feedback; or (ii) The processing of personal data solely for measuring or reporting advertising performance, reach, or frequency",
+      "section": "2",
+      "notes": ""
+    },
+    "Third party": {
+      "term": "Third party",
+      "definition": "A person, other than the consumer, the controller, the processor, or an affiliate of the controller or processor",
+      "section": "2",
+      "notes": ""
+    },
+    "Trade secret": {
+      "term": "Trade secret",
+      "definition": "Has the same meaning as in section 87-502",
+      "section": "2",
+      "notes": ""
+    }
+  },
+  "requirements": [
+    {
+      "id": "c9099647-2852-4c39-97b0-63d58b9c2423",
+      "description": "Controllers must limit collection of personal data to what is adequate, relevant, and reasonably necessary in relation to disclosed purposes",
+      "citation": {
+        "section": "Section 12(1)(a)",
+        "quoted_text": "Shall limit the collection of personal data to what is adequate, relevant, and reasonably necessary in relation to the purposes for which that personal data is processed, as disclosed to the consumer",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Personal data must be collected for disclosed purposes",
+        "Collection must be adequate and relevant",
+        "Collection must be reasonably necessary"
+      ],
+      "source_section": "Section 12",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "a2869623-02f8-45c3-b683-c9cb805d4cb7",
+      "description": "Controllers must establish, implement, and maintain reasonable data security practices appropriate to the volume and nature of personal data",
+      "citation": {
+        "section": "Section 12(1)(b)",
+        "quoted_text": "For purposes of protecting the confidentiality, integrity, and accessibility of personal data, shall establish, implement, and maintain reasonable administrative, technical, and physical data security practices that are appropriate to the volume and nature of the personal data at issue",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "technical",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Practices must protect confidentiality, integrity, and accessibility",
+        "Practices must be appropriate to volume and nature of data"
+      ],
+      "source_section": "Section 12",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "a09ccad5-9407-4fae-9ac7-9da8cdb70699",
+      "description": "Controllers are prohibited from processing personal data for purposes neither reasonably necessary nor compatible with disclosed purposes without consent",
+      "citation": {
+        "section": "Section 12(2)(a)",
+        "quoted_text": "Except as otherwise provided in the Data Privacy Act, process personal data for a purpose that is neither reasonably necessary to nor compatible with the disclosed purpose for which the personal data is processed, as disclosed to the consumer, unless the controller obtains the consumer's consent",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Applies except as otherwise provided in the Act",
+        "Purpose must not be reasonably necessary to disclosed purpose",
+        "Purpose must not be compatible with disclosed purpose",
+        "Exception if consent is obtained"
+      ],
+      "source_section": "Section 12",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "f66ba763-eb82-4f8f-bc65-ece12d91d78b",
+      "description": "Controllers are prohibited from discriminating against consumers for exercising their rights under the Act",
+      "citation": {
+        "section": "Section 12(2)(c)",
+        "quoted_text": "Discriminate against a consumer for exercising any of the consumer rights contained in the Data Privacy Act, including by denying a good or service, charging a different price or rate for a good or service, or providing a different level of quality of a good or service to the consumer",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Applies when consumer exercises rights under Act",
+        "Includes denying goods/services",
+        "Includes differential pricing",
+        "Includes differential quality levels"
+      ],
+      "source_section": "Section 12",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "240204dd-75bd-4f28-9a83-74138dcffb3f",
+      "description": "Controllers must obtain consent before processing sensitive data of consumers or processing sensitive data of known children in accordance with COPPA",
+      "citation": {
+        "section": "Section 12(2)(d)",
+        "quoted_text": "Process the sensitive data of a consumer without obtaining the consumer's consent, or, in the case of processing the sensitive data of a known child, without processing that data in accordance with the federal Children's Online Privacy Protection Act of 1998, 15 U.S.C. 6501 et seq., as such act existed on January 1, 2024",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Applies to sensitive data processing",
+        "Consent required for consumer sensitive data",
+        "Known child data must comply with COPPA"
+      ],
+      "source_section": "Section 12",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "fa25b59e-c925-483b-a41d-116cdd193c96",
+      "description": "Controllers must provide consumers with a reasonably accessible and clear privacy notice including categories of personal data processed, purposes, and consumer rights",
+      "citation": {
+        "section": "Section 13",
+        "quoted_text": "A controller shall provide each consumer with a reasonably accessible and clear privacy notice that includes: (1) The categories of personal data processed by the controller, including, if applicable, any sensitive data processed by the controller; (2) The purpose for processing personal data; (3) How a consumer may exercise a consumer right under sections 7 to 11 of this act",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "disclosure",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Notice must be reasonably accessible",
+        "Notice must be clear",
+        "Must include data categories",
+        "Must include processing purposes",
+        "Must include how to exercise rights"
+      ],
+      "source_section": "Section 13",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "371248a3-7cb2-404e-9653-009047ae85a2",
+      "description": "Controllers must disclose if selling personal data to third parties or processing for targeted advertising and provide manner for consumers to opt out",
+      "citation": {
+        "section": "Section 14",
+        "quoted_text": "If a controller sells personal data to any third party or processes personal data for targeted advertising, the controller shall clearly and conspicuously disclose that process and the manner in which a consumer may exercise the right to opt out of that process",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "disclosure",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Applies when selling personal data",
+        "Applies when processing for targeted advertising",
+        "Disclosure must be clear and conspicuous",
+        "Must describe opt-out manner"
+      ],
+      "source_section": "Section 14",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "e43a4c94-8383-4498-bcf3-33818177c1a3",
+      "description": "Processors must adhere to controller instructions and assist controllers in meeting duties under the Act using appropriate technical and organizational measures",
+      "citation": {
+        "section": "Section 15(1)",
+        "quoted_text": "A processor shall adhere to the instructions of a controller and shall assist the controller in meeting or complying with the controller's duties or requirements under the Data Privacy Act, including: (a) Assisting the controller in responding to consumer rights requests submitted under section 7 of this act by using appropriate technical and organizational measures, as reasonably practicable, taking into account the nature of processing and the information available to the processor",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "operational",
+      "applies_to": "Processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Must follow controller instructions",
+        "Must assist with consumer rights requests",
+        "Must use appropriate technical measures",
+        "Must use appropriate organizational measures",
+        "Must consider nature of processing"
+      ],
+      "source_section": "Section 15",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "569015d2-5e3a-47e0-b454-e8afe73f8ea8",
+      "description": "Contracts between controllers and processors must govern data processing procedures and include specific required elements",
+      "citation": {
+        "section": "Section 15(2)",
+        "quoted_text": "A contract between a controller and a processor shall govern the processor's data processing procedures with respect to processing performed on behalf of the controller. The contract shall include: (a) Clear instructions for processing data; (b) The nature and purpose of processing; (c) The type of data subject to processing; (d) The duration of processing; (e) The rights and obligations of both parties",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and Processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Contract must govern processing procedures",
+        "Must include processing instructions",
+        "Must include nature and purpose",
+        "Must include data types",
+        "Must include duration",
+        "Must include rights and obligations"
+      ],
+      "source_section": "Section 15",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "333a0b11-908a-4b44-af75-ce4e8f747f3a",
+      "description": "Controllers must conduct and document data protection assessments for processing activities including targeted advertising, sale of personal data, profiling with foreseeable risks, processing of sensitive data, and processing presenting heightened risk",
+      "citation": {
+        "section": "Section 16(1)",
+        "quoted_text": "A controller shall conduct and document a data protection assessment of each of the following processing activities involving personal data: (a) The processing of personal data for purposes of targeted advertising; (b) The sale of personal data; (c) The processing of personal data for purposes of profiling, if the profiling presents a reasonably foreseeable risk of: (i) Unfair or deceptive treatment of or unlawful disparate impact on any consumer; (ii) Financial, physical, or reputational injury to any consumer; (iii) A physical or other intrusion on the solitude or seclusion, or the private affairs or concerns, of any consumer, if the intrusion would be offensive to a reasonable person; or (iv) Other substantial injury to any consumer; (d) The processing of sensitive data; and (e) Any processing activity that involves personal data that presents a heightened risk of harm to any consumer",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Must conduct assessment for listed activities",
+        "Must document the assessment",
+        "Applies to targeted advertising",
+        "Applies to sale of personal data",
+        "Applies to profiling with specific risks",
+        "Applies to sensitive data",
+        "Applies to heightened risk processing"
+      ],
+      "source_section": "Section 16",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "8e22f3b5-d10c-4785-b15b-aa8165cf2c6c",
+      "description": "Controllers in possession of deidentified data must take reasonable measures to ensure data cannot be associated with an individual, publicly commit to maintaining deidentified data, and contractually obligate recipients to comply with the Act",
+      "citation": {
+        "section": "Section 17(1)",
+        "quoted_text": "A controller in possession of deidentified data shall: (a) Take reasonable measures to ensure that the data cannot be associated with an individual; (b) Publicly commit to maintaining and using deidentified data without attempting to reidentify the data; and (c) Contractually obligate any recipient of the deidentified data to comply with the Data Privacy Act",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          80,
+          80
+        ],
+        "match_type": "exact"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Applies to deidentified data",
+        "Must prevent association with individuals",
+        "Must make public commitment",
+        "Must contractually obligate recipients"
+      ],
+      "source_section": "Section 17",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "6dca64ae-b1cf-4495-80eb-ab265ab32117",
+      "description": "Small businesses shall not engage in sale of sensitive data without receiving prior consent from the consumer",
+      "citation": {
+        "section": "Section 18(1)",
+        "quoted_text": "A person described by subdivision (1)(c) of section 3 of this act shall not engage in the sale of personal data that is sensitive data without receiving prior consent from the consumer",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Small businesses (as described in Section 3(1)(c))",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Applies to small businesses under federal Small Business Act",
+        "Applies to sale of sensitive data",
+        "Prior consent is required"
+      ],
+      "source_section": "Section 18",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "d4e9e902-e72b-4647-805f-079a95f76f39",
+      "description": "The Attorney General has exclusive authority to enforce the Data Privacy Act",
+      "citation": {
+        "section": "Section 19",
+        "quoted_text": "The Attorney General has exclusive authority to enforce the Data Privacy Act",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Attorney General",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Authority is exclusive",
+        "Applies to entire Act"
+      ],
+      "source_section": "Section 19",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "60d93b9e-6f0f-439a-a850-713477c2cdda",
+      "description": "The Attorney General must post on website information about controller and processor responsibilities, consumer rights, and an online mechanism for complaints",
+      "citation": {
+        "section": "Section 20",
+        "quoted_text": "The Attorney General shall post on the Attorney General's website: (1) Information relating to: (a) The responsibilities of a controller under the Data Privacy Act; (b) The responsibilities of a processor under the Data Privacy Act; and (c) A consumer's rights under the Data Privacy Act; and (2) An online mechanism through which a consumer may submit a complaint under the Data Privacy Act to the Attorney General",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Attorney General",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Must post on AG website",
+        "Must include controller responsibilities",
+        "Must include processor responsibilities",
+        "Must include consumer rights",
+        "Must include complaint mechanism"
+      ],
+      "source_section": "Section 20",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "f0acf04b-84a9-4674-813d-1b2860bd7d0f",
+      "description": "The Attorney General may issue civil investigative demands if reasonable cause exists to believe a controller or processor has violated the Act, including demands for data protection assessments",
+      "citation": {
+        "section": "Section 21",
+        "quoted_text": "If the Attorney General has reasonable cause to believe that a controller or processor has engaged in or is engaging in a violation of the Data Privacy Act, the Attorney General may issue a civil investigative demand pursuant to section 23 of this act. (2) The Attorney General may request, pursuant to a civil investigative demand, that a controller disclose any data protection assessment that is relevant to an investigation conducted by the Attorney General",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          690,
+          691
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Attorney General",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Requires reasonable cause to believe violation occurred",
+        "May demand data protection assessments",
+        "Demand must be relevant to investigation"
+      ],
+      "source_section": "Section 21",
+      "obligation_type": "may"
+    },
+    {
+      "id": "56db2a25-7625-4e4b-9c1a-b2ad27d2fbda",
+      "description": "Before bringing enforcement action, Attorney General must notify controller or processor in writing at least 30 days before action, identifying specific violations alleged",
+      "citation": {
+        "section": "Section 22",
+        "quoted_text": "Before bringing an action under section 24 of this act, the Attorney General shall notify a controller or processor in writing, not later than the thirtieth day before bringing the action, identifying the specific provisions of the Data Privacy Act the Attorney General alleges have been or are being violated",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Attorney General",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Must provide written notice",
+        "Notice must be at least 30 days before action",
+        "Must identify specific provisions violated"
+      ],
+      "source_section": "Section 22",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "ea2233dd-e2d7-40b7-ab78-5faf07e14d1b",
+      "description": "The Attorney General may not bring action if controller or processor cures violation within 30-day period, provides written statement of cure with supporting documentation, and provides express written statement not to commit future violations",
+      "citation": {
+        "section": "Section 22",
+        "quoted_text": "The Attorney General may not bring an action against the controller or processor if: (1) Within the thirty-day period, the controller or processor cures the identified violation; and (2) The controller or processor provides the Attorney General: (a) A written statement that the controller or processor cured the alleged violation and supportive documentation to show how such violation was cured; and (b) An express written statement that the controller or processor shall not commit any such violation after the alleged violation has been cured",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Attorney General, Controllers, Processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Violation must be cured within 30 days",
+        "Written statement of cure required",
+        "Supporting documentation required",
+        "Express written statement of no future violations required"
+      ],
+      "source_section": "Section 22",
+      "obligation_type": "may_not"
+    },
+    {
+      "id": "9a18583b-1d18-41f4-a02d-f7ea4a0c0cf1",
+      "description": "Civil investigative demands must state the statute sections allegedly violated, describe documentary material with reasonable specificity, prescribe a return date, and identify AG staff for inspection",
+      "citation": {
+        "section": "Section 23(2)",
+        "quoted_text": "Each such demand shall: (a) State the statute and section or sections thereof the alleged violation of which is under investigation, and the general subject matter of the investigation; (b) Describe the class or classes of documentary material to be produced thereunder with reasonable specificity so as fairly to indicate the material demanded; (c) Prescribe a return date within which the documentary material shall be produced; and (d) Identify the members of the Attorney General's staff to whom such documentary material shall be made available for inspection and copying",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Attorney General",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Must state statute and sections",
+        "Must describe material with reasonable specificity",
+        "Must prescribe return date",
+        "Must identify AG staff"
+      ],
+      "source_section": "Section 23",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "a7ef2690-750e-416a-a6dc-0f7486548107",
+      "description": "Persons who violate the Act following cure period or breach written statement are liable for civil penalty not exceeding $7,500 per violation or $100,000 for multiple violations in single or related proceedings",
+      "citation": {
+        "section": "Section 24(1)",
+        "quoted_text": "A person who violates the Data Privacy Act following the cure period described by section 22 of this act or who breaches a written statement provided to the Attorney General under such section is liable for a civil penalty in an amount not to exceed seven thousand five hundred dollars for any single violation or one hundred thousand dollars for multiple violations in a single proceeding or a series of related proceedings",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          815,
+          816
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and Processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Applies after cure period expires",
+        "Applies if written statement is breached",
+        "Maximum $7,500 per violation",
+        "Maximum $100,000 for multiple related violations"
+      ],
+      "source_section": "Section 24",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "84986bd5-0aae-4a4a-9ee5-9c56fca2d700",
+      "description": "The Data Privacy Act does not provide or create a basis for a private right of action for violations of the Act or any other law",
+      "citation": {
+        "section": "Section 25",
+        "quoted_text": "The Data Privacy Act shall not be construed as providing a basis for, or being subject to, a private right of action for a violation of the Data Privacy Act or any other law",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "All persons",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "No private right of action exists",
+        "Applies to Act violations",
+        "Applies to other law violations"
+      ],
+      "source_section": "Section 25",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "cf4c2e23-c4b6-41f8-8c92-51631099b0ab",
+      "description": "The Act does not restrict controller or processor ability to comply with federal, state, or local laws, comply with civil, criminal, or regulatory inquiries, cooperate with law enforcement, investigate or defend legal claims, or provide products/services requested by consumers",
+      "citation": {
+        "section": "Section 26(1)",
+        "quoted_text": "The Data Privacy Act shall not be construed to: (1) Restrict a controller's or processor's ability to: (a) Comply with federal, state, or local laws, rules, or regulations; (b) Comply with a civil, criminal, or regulatory inquiry, investigation, subpoena, or summons by federal, state, local, or other governmental authorities; (c) Cooperate with any law enforcement agency concerning conduct or activity that the controller or processor reasonably and in good faith believes may violate any federal, state, or local law, rule, or regulation; (d) Investigate, establish, exercise, prepare for, or defend legal claims; (e) Provide a product or service specifically requested by a consumer or the parent or guardian of a child, perform a contract to which the consumer is a party, including fulfilling the terms of a written warranty, or take action at the request of the consumer before entering into a contract",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and Processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Does not restrict legal compliance activities",
+        "Does not restrict law enforcement cooperation",
+        "Does not restrict legal defense",
+        "Does not restrict fulfilling consumer requests"
+      ],
+      "source_section": "Section 26",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "66ae6bab-e4d9-4bbe-9964-237b1cbc4d23",
+      "description": "The Act exempts processing to prevent, detect, or protect against security incidents, identity theft, fraud, harassment, malicious activities, or illegal activity and to preserve system integrity or security",
+      "citation": {
+        "section": "Section 26(1)(g)(h)",
+        "quoted_text": "(g) Prevent, detect, protect against, or respond to security incidents, identity theft, fraud, harassment, malicious or deceptive activities, or any illegal activity; (h) Preserve the integrity or security of systems or investigate, report, or prosecute those responsible for breaches of system security",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and Processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Applies to security and fraud prevention",
+        "Applies to system integrity preservation",
+        "Applies to breach investigation and prosecution"
+      ],
+      "source_section": "Section 26",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "8ff9bf8c-bb64-46a6-aeb5-5b08966c3636",
+      "description": "The Act exempts processing for public or peer-reviewed scientific or statistical research in the public interest that adheres to ethics and privacy laws and is approved by an institutional review board",
+      "citation": {
+        "section": "Section 26(1)(i)",
+        "quoted_text": "Engage in public or peer-reviewed scientific or statistical research in the public interest that adheres to all other applicable ethics and privacy laws and is approved, monitored, and governed by an institutional review board or similar independent oversight entity that determines: (i) If the deletion of the information is likely to provide substantial benefits that do not exclusively accrue to the controller; (ii) Whether the expected benefits of the research outweigh the privacy risks; and (iii) If the controller has implemented reasonable safeguards to mitigate privacy risks associated with research, including any risks associated with reidentification",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and Processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Research must be in public interest",
+        "Must adhere to ethics and privacy laws",
+        "Must be approved by IRB or similar entity",
+        "IRB must evaluate benefits and risks",
+        "Reasonable safeguards required"
+      ],
+      "source_section": "Section 26",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "ce814593-932f-4e17-bdba-639c9e119a62",
+      "description": "Requirements under the Act do not restrict controller or processor ability to collect, use, or retain data for internal research to develop, improve, or repair products, services, or technology",
+      "citation": {
+        "section": "Section 27(1)(a)",
+        "quoted_text": "The requirements imposed on any controller or processor under the Data Privacy Act shall not restrict a controller's or processor's ability to collect, use, or retain data to: (a) Conduct internal research to develop, improve, or repair products, services, or technology",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and Processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Applies to internal research",
+        "Applies to product/service development or improvement",
+        "Applies to technology repair"
+      ],
+      "source_section": "Section 27",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "9f1e9ef2-588c-499f-82ca-d06c3f4e9786",
+      "description": "The Act does not impose liability on controllers or processors for disclosures to third parties when the disclosing entity did not have actual knowledge that recipient intended to commit a violation",
+      "citation": {
+        "section": "Section 28(1)",
+        "quoted_text": "A controller or processor that discloses personal data to a third-party controller or processor, in compliance with any requirement of the Data Privacy Act, does not violate the Data Privacy Act if the third-party controller or processor that receives and processes that personal data is in violation of the Data Privacy Act, if at the time of the data's disclosure the disclosing controller or processor did not have actual knowledge that the recipient intended to commit a violation",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and Processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Disclosure must comply with Act requirements",
+        "No liability if recipient violates Act",
+        "Disclosing party must not have actual knowledge of recipient's intent to violate"
+      ],
+      "source_section": "Section 28",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "572b3b8f-1628-4043-8483-eb69a82825f3",
+      "description": "Personal data processed under Act exemptions may not be processed for purposes other than those listed in exemption sections unless processing is reasonably necessary and proportionate to exemption purposes",
+      "citation": {
+        "section": "Section 29(1)",
+        "quoted_text": "Personal data processed by a controller under sections 26 to 29 of this act may not be processed for any purpose other than a purpose listed in sections 26 to 29 of this act unless otherwise allowed by the Data Privacy Act. Personal data processed by a controller under sections 26 to 29 of this act may be processed to the extent that the processing of the data is: (a) Reasonably necessary and proportionate to the purposes listed in sections 26 to 29 of this act; and (b) Adequate, relevant, and limited to what is necessary in relation to the specific purposes listed in sections 26 to 29 of this act",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Processing must be for exemption purposes only",
+        "Must be reasonably necessary and proportionate",
+        "Must be adequate, relevant, and limited"
+      ],
+      "source_section": "Section 29",
+      "obligation_type": "may_not"
+    },
+    {
+      "id": "703dc023-77b0-4d73-aa74-5fb01e56c246",
+      "description": "The Data Privacy Act supersedes and preempts any ordinance, resolution, rule, or regulation adopted by a political subdivision regarding processing of personal data by controllers or processors",
+      "citation": {
+        "section": "Section 30",
+        "quoted_text": "The Data Privacy Act supersedes and preempts any ordinance, resolution, rule, or other regulation adopted by a political subdivision regarding the processing of personal data by a controller or processor",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Political subdivisions, Controllers, Processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Act preempts local regulations",
+        "Applies to all personal data processing regulations"
+      ],
+      "source_section": "Section 30",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "25783ab3-4305-4cf1-b753-ea0d1dad4880",
+      "description": "Applicability of the Act is limited to persons conducting business in Nebraska or producing products/services consumed by Nebraska residents, who process or engage in sale of personal data, and who are not small businesses except as Section 18 applies",
+      "citation": {
+        "section": "Section 3(1)",
+        "quoted_text": "The Data Privacy Act applies only to a person that: (a) Conducts business in this state or produces a product or service consumed by residents of this state; (b) Processes or engages in the sale of personal data; and (c) Is not a small business as determined under the federal Small Business Act, as such act existed on January 1, 2024, except to the extent that section 18 of this act applies to a person described by this subdivision",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and Processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Must conduct business in Nebraska or serve Nebraska residents",
+        "Must process or sell personal data",
+        "Small businesses exempt except for Section 18"
+      ],
+      "source_section": "Section 3",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "4fc0952c-6beb-47e0-87b9-3ea19f231ddb",
+      "description": "The Act does not apply to state agencies, political subdivisions, financial institutions subject to Gramm-Leach-Bliley Act, HIPAA covered entities, nonprofit organizations, institutions of higher education, electric or natural gas utilities",
+      "citation": {
+        "section": "Section 3(2)",
+        "quoted_text": "The Data Privacy Act does not apply to any: (a) State agency or political subdivision of this state; (b) Financial institution, affiliate of a financial institution, or data subject to Title V of the Gramm-Leach-Bliley Act, 15 U.S.C. 6801 et seq., as such title existed on January 1, 2024; (c) Covered entity or business associate governed by the privacy, security, and breach notification rules issued by the United States Department of Health and Human Services, 45 C.F.R. parts 160 and 164, as such parts existed on January 1, 2024; (d) Nonprofit organization; (e) Institution of higher education; (f) Electric supplier or supplier of electricity as defined in section 70-1001.01; (g) Natural gas public utility as defined in section 66-1802; or (h) Natural gas utility owned or operated by a city or a metropolitan utilities district",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          246,
+          247
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Exempt entities",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Lists specific exempt entity types",
+        "Includes government entities",
+        "Includes GLBA and HIPAA covered entities",
+        "Includes nonprofits and educational institutions",
+        "Includes utilities"
+      ],
+      "source_section": "Section 3",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "24d52f47-2160-4029-9a1c-7a89cc54bf6b",
+      "description": "The Act does not apply to protected health information under HIPAA, health records, patient identifying information for substance abuse treatment, identifiable private information for human subjects research, and several other categories of health-related data",
+      "citation": {
+        "section": "Section 4",
+        "quoted_text": "The Data Privacy Act does not apply to the following: (1) Protected health information under the Health Insurance Portability and Accountability Act; (2) Health records; (3) Patient identifying information for purposes of 42 U.S.C. 290dd-2, as such section existed on January 1, 2024; (4) Identifiable private information: (a) For purposes of the federal policy for the protection of human subjects under 45 C.F.R. part 46, as such part existed on January 1, 2024",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          62,
+          62
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "All persons",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Exempts specific categories of health data",
+        "References federal law exemptions",
+        "Includes research data"
+      ],
+      "source_section": "Section 4",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "48ec9887-0402-4f2b-9456-2730a352e39d",
+      "description": "The Act does not apply to processing of personal data by a person in the course of purely personal or household activity",
+      "citation": {
+        "section": "Section 5",
+        "quoted_text": "The Data Privacy Act does not apply to the processing of personal data by a person in the course of a purely personal or household activity",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Individuals",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Activity must be purely personal or household",
+        "Not commercial or employment context"
+      ],
+      "source_section": "Section 5",
+      "obligation_type": "shall_not"
+    },
+    {
+      "id": "18cffcee-889b-474f-a71e-dfb0620e4e1c",
+      "description": "Controllers or processors complying with COPPA verifiable parental consent requirements for online data collected from children are deemed in compliance with any requirement to obtain parental consent under the Act",
+      "citation": {
+        "section": "Section 6",
+        "quoted_text": "A controller or processor that complies with the verifiable parental consent requirements of the federal Children's Online Privacy Protection Act of 1998, 15 U.S.C. 6501 et seq., and the rules, regulations, and guidance adopted and promulgated under such act as such act, rules, regulations, and guidance existed on January 1, 2024, with respect to data collected online is considered to be in compliance with any requirement to obtain parental consent under the Data Privacy Act",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          338,
+          339
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and Processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Must comply with COPPA requirements",
+        "Applies to data collected online",
+        "Deems compliance with Act consent requirements"
+      ],
+      "source_section": "Section 6",
+      "obligation_type": "may"
+    },
+    {
+      "id": "b2514890-c8d4-43f4-8030-a0c25be11bb4",
+      "description": "Consumers have the right to submit requests to controllers to confirm processing, access personal data, correct inaccuracies, delete personal data, obtain portable copy of data, and opt out of targeted advertising, sale of data, and profiling for legal decisions",
+      "citation": {
+        "section": "Section 7(2)",
+        "quoted_text": "A controller shall comply with an authenticated consumer request to exercise the right to: (a) Confirm whether a controller is processing the consumer's personal data and to access the personal data; (b) Correct inaccuracies in the consumer's personal data, taking into account the nature of the personal data and the purposes of the processing of the consumer's personal data; (c) Delete personal data provided by or obtained about the consumer; (d) If the data is available in a digital format and the processing is completed by automated means, obtain a copy of the consumer's personal data that the consumer previously provided to the controller in a portable and, to the extent technically feasible, readily usable format that allows the consumer to transmit the data to another controller without hindrance; or (e) Opt out of the processing of the personal data for purposes of: (i) Targeted advertising; (ii) The sale of personal data; or (iii) Profiling in furtherance of a decision that produces a legal or similarly significant effect concerning the consumer",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "disclosure",
+      "applies_to": "Consumers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Request must be authenticated",
+        "Controller must comply with request",
+        "Includes access, correction, deletion rights",
+        "Includes portability right for digital automated data",
+        "Includes opt-out rights"
+      ],
+      "source_section": "Section 7",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "62f59484-e193-47ea-b36f-ec7499d1c8cb",
+      "description": "Controllers must respond to consumer requests without undue delay within 45 days, with optional 45-day extension when reasonably necessary, and must inform consumer of extension and reason within initial period",
+      "citation": {
+        "section": "Section 8(2)",
+        "quoted_text": "A controller shall respond to the consumer request without undue delay within forty-five days after the date of receipt of the request. The controller may extend the response period once by an additional forty-five days when reasonably necessary, taking into account the complexity and number of the consumer's requests, so long as the controller informs the consumer of the extension within the initial forty-five-day response period, together with the reason for the extension",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Initial response within 45 days",
+        "May extend once for additional 45 days",
+        "Must notify consumer of extension and reason within initial period",
+        "Extension must be reasonably necessary"
+      ],
+      "source_section": "Section 8",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "c2bcfe06-d5a7-4c60-b5d9-f6db9915f854",
+      "description": "Controllers must establish an appeals process for consumers to appeal refusal to take action on a request and inform consumer in writing of action or inaction within 60 days of receipt of appeal",
+      "citation": {
+        "section": "Section 9",
+        "quoted_text": "A controller shall establish a process for a consumer to appeal the controller's refusal to take action on a request within a reasonable period of time after the consumer's receipt of the decision under subsection (3) of section 8 of this act. (3) A controller shall inform the consumer in writing of any action taken or not taken in response to an appeal under this section not later than the sixtieth day after the date of receipt of the appeal, including a written explanation of the reason or reasons for the decision",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          410,
+          411
+        ],
+        "match_type": "contains"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Must establish appeals process",
+        "Must inform consumer in writing within 60 days",
+        "Must explain reasons for decision"
+      ],
+      "source_section": "Section 9",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "311fb313-5b83-4f4e-b962-670e9c251134",
+      "description": "Any contract or agreement provision that waives or limits consumer rights under Sections 7 to 9 is contrary to public policy and void and unenforceable",
+      "citation": {
+        "section": "Section 10",
+        "quoted_text": "Any provision of a contract or agreement that waives or limits in any way a consumer right described in sections 7 to 9 of this act is contrary to public policy and is void and unenforceable",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          76,
+          76
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "All persons",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Applies to any contract provision",
+        "Provision must waive or limit consumer rights",
+        "Such provisions are void"
+      ],
+      "source_section": "Section 10",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "56b1dd64-8cbb-47c5-9e83-555a0ec00dbe",
+      "description": "Controllers must establish two or more secure and reliable methods for consumers to submit requests to exercise consumer rights, taking into account normal interaction methods, security needs, and authentication ability",
+      "citation": {
+        "section": "Section 11(1)",
+        "quoted_text": "A controller shall establish two or more secure and reliable methods to enable a consumer to submit a request to exercise consumer rights under the Data Privacy Act. The methods shall take into account: (a) The ways in which consumers normally interact with the controller; (b) The necessity for secure and reliable communications of those requests; and (c) The ability of the controller to authenticate the identity of the consumer making the request",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          427,
+          428
+        ],
+        "match_type": "contains"
+      },
+      "category": "technical",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Must establish at least two methods",
+        "Methods must be secure and reliable",
+        "Must consider normal consumer interaction patterns",
+        "Must consider security and authentication"
+      ],
+      "source_section": "Section 11",
+      "obligation_type": "shall"
+    }
+  ],
+  "unverified_items": [],
+  "metadata": {
+    "source_file": "State Privacy Laws\\Nebraska Privacy Law.pdf",
+    "total_requirements": 37,
+    "verified_count": 37,
+    "output_format": "json",
+    "sections_processed": [
+      "Section 12",
+      "Section 13",
+      "Section 14",
+      "Section 15",
+      "Section 16",
+      "Section 17",
+      "Section 18",
+      "Section 19",
+      "Section 20",
+      "Section 21",
+      "Section 22",
+      "Section 23",
+      "Section 24",
+      "Section 25",
+      "Section 26",
+      "Section 27",
+      "Section 28",
+      "Section 29",
+      "Section 30",
+      "Section 3",
+      "Section 4",
+      "Section 5",
+      "Section 6",
+      "Section 7",
+      "Section 8",
+      "Section 9",
+      "Section 10",
+      "Section 11"
+    ],
+    "requirements_per_section": {
+      "Section 12": 5,
+      "Section 13": 1,
+      "Section 14": 1,
+      "Section 15": 2,
+      "Section 16": 1,
+      "Section 17": 1,
+      "Section 18": 1,
+      "Section 19": 1,
+      "Section 20": 1,
+      "Section 21": 1,
+      "Section 22": 2,
+      "Section 23": 1,
+      "Section 24": 1,
+      "Section 25": 1,
+      "Section 26": 3,
+      "Section 27": 1,
+      "Section 28": 1,
+      "Section 29": 1,
+      "Section 30": 1,
+      "Section 3": 2,
+      "Section 4": 1,
+      "Section 5": 1,
+      "Section 6": 1,
+      "Section 7": 1,
+      "Section 8": 1,
+      "Section 9": 1,
+      "Section 10": 1,
+      "Section 11": 1
+    },
+    "total_extracted": 37,
+    "defined_terms": [
+      "Affiliate",
+      "Authenticate",
+      "Biometric data",
+      "Business associate",
+      "Child",
+      "Consent",
+      "Consumer",
+      "Controller",
+      "Covered entity",
+      "Dark pattern",
+      "Decision that produces a legal or similarly significant effect concerning a consumer",
+      "Deidentified data",
+      "Health care provider",
+      "Health Insurance Portability and Accountability Act",
+      "Health record",
+      "Identified or identifiable individual",
+      "Institution of higher education",
+      "Known child",
+      "Nonprofit organization",
+      "Personal data",
+      "Political organization",
+      "Precise geolocation data",
+      "Process or processing",
+      "Processor",
+      "Profiling",
+      "Protected health information",
+      "Pseudonymous data",
+      "Publicly available information",
+      "Sale of personal data",
+      "Sensitive data",
+      "State agency",
+      "Targeted advertising",
+      "Third party",
+      "Trade secret"
+    ],
+    "section_types": {
+      "1": "general",
+      "2": "definitions",
+      "3": "applicability",
+      "4": "exemptions",
+      "5": "exemptions",
+      "6": "general",
+      "7": "consumer_rights",
+      "8": "controller_duties",
+      "9": "consumer_rights",
+      "10": "general",
+      "11": "consumer_rights",
+      "12": "controller_duties",
+      "13": "controller_duties",
+      "14": "controller_duties",
+      "15": "processor_duties",
+      "16": "controller_duties",
+      "17": "controller_duties",
+      "18": "general",
+      "19": "enforcement",
+      "20": "enforcement",
+      "21": "enforcement",
+      "22": "enforcement",
+      "23": "enforcement",
+      "24": "enforcement",
+      "25": "enforcement",
+      "26": "exemptions",
+      "27": "exemptions",
+      "28": "general",
+      "29": "exemptions",
+      "30": "general"
+    }
+  },
+  "structure": {
+    "name": "Nebraska Data Privacy Act",
+    "citation": "LB1074, Sections 1-30",
+    "effective_date": "January 1, 2025",
+    "sections": [
+      {
+        "id": "1",
+        "title": "Short Title",
+        "section_type": "general",
+        "content": "Sections 1 to 30 of this act shall be known and may be cited as the Data Privacy Act.",
+        "start_line": 45,
+        "end_line": 46,
+        "subsections": []
+      },
+      {
+        "id": "2",
+        "title": "Definitions",
+        "section_type": "definitions",
+        "content": "For purposes of the Data Privacy Act: (1) Affiliate means a legal entity that controls, is controlled by, or is under common control with another legal entity or shares common branding w",
+        "start_line": 47,
+        "end_line": 204,
+        "subsections": []
+      },
+      {
+        "id": "3",
+        "title": "Applicability",
+        "section_type": "applicability",
+        "content": "(1) The Data Privacy Act applies only to a person that: (a) Conducts business in this state or produces a product or service consumed by residents of this state; (b) Processes or engages in",
+        "start_line": 205,
+        "end_line": 243,
+        "subsections": []
+      },
+      {
+        "id": "4",
+        "title": "Exemptions - Data Types",
+        "section_type": "exemptions",
+        "content": "The Data Privacy Act does not apply to the following: (1) Protected health information under the Health Insurance Portability and Accountability Act; (2) Health records; (3) Patient identif",
+        "start_line": 244,
+        "end_line": 291,
+        "subsections": []
+      },
+      {
+        "id": "5",
+        "title": "Exemptions - Personal and Household Activities",
+        "section_type": "exemptions",
+        "content": "The Data Privacy Act does not apply to the processing of personal data by a person in the course of a purely personal or household activity.",
+        "start_line": 292,
+        "end_line": 293,
+        "subsections": []
+      },
+      {
+        "id": "6",
+        "title": "COPPA Compliance",
+        "section_type": "general",
+        "content": "A controller or processor that complies with the verifiable parental consent requirements of the federal Children's Online Privacy Protection Act of 1998, 15 U.S.C. 6501 et seq., and the r",
+        "start_line": 294,
+        "end_line": 299,
+        "subsections": []
+      },
+      {
+        "id": "7",
+        "title": "Consumer Rights",
+        "section_type": "consumer_rights",
+        "content": "(1) A consumer may at any time submit a request to a controller specifying the consumer rights the consumer wishes to exercise. With respect to the processing of personal data belonging to ",
+        "start_line": 300,
+        "end_line": 318,
+        "subsections": []
+      },
+      {
+        "id": "8",
+        "title": "Controller Response Requirements",
+        "section_type": "controller_duties",
+        "content": "(1) Except as otherwise provided in the Data Privacy Act, a controller shall comply with a request submitted by a consumer to exercise the consumer's rights pursuant to section 7 of this ac",
+        "start_line": 319,
+        "end_line": 344,
+        "subsections": []
+      },
+      {
+        "id": "9",
+        "title": "Appeals Process",
+        "section_type": "consumer_rights",
+        "content": "(1) A controller shall establish a process for a consumer to appeal the controller's refusal to take action on a request within a reasonable period of time after the consumer's receipt of t",
+        "start_line": 345,
+        "end_line": 353,
+        "subsections": []
+      },
+      {
+        "id": "10",
+        "title": "Waiver Prohibition",
+        "section_type": "general",
+        "content": "Any provision of a contract or agreement that waives or limits in any way a consumer right described in sections 7 to 9 of this act is contrary to public policy and is void and unenforceab",
+        "start_line": 354,
+        "end_line": 356,
+        "subsections": []
+      },
+      {
+        "id": "11",
+        "title": "Request Submission Methods",
+        "section_type": "consumer_rights",
+        "content": "(1) A controller shall establish two or more secure and reliable methods to enable a consumer to submit a request to exercise consumer rights under the Data Privacy Act. The methods shall t",
+        "start_line": 357,
+        "end_line": 396,
+        "subsections": []
+      },
+      {
+        "id": "12",
+        "title": "Controller Duties - General",
+        "section_type": "controller_duties",
+        "content": "(1) A controller: (a) Shall limit the collection of personal data to what is adequate, relevant, and reasonably necessary in relation to the purposes for which that personal data is proces",
+        "start_line": 397,
+        "end_line": 425,
+        "subsections": []
+      },
+      {
+        "id": "13",
+        "title": "Privacy Notice Requirements",
+        "section_type": "controller_duties",
+        "content": "A controller shall provide each consumer with a reasonably accessible and clear privacy notice that includes: (1) The categories of personal data processed by the controller, including, if a",
+        "start_line": 426,
+        "end_line": 437,
+        "subsections": []
+      },
+      {
+        "id": "14",
+        "title": "Opt-Out Disclosure",
+        "section_type": "controller_duties",
+        "content": "If a controller sells personal data to any third party or processes personal data for targeted advertising, the controller shall clearly and conspicuously disclose that process and the manne",
+        "start_line": 438,
+        "end_line": 440,
+        "subsections": []
+      },
+      {
+        "id": "15",
+        "title": "Processor Duties",
+        "section_type": "processor_duties",
+        "content": "(1) A processor shall adhere to the instructions of a controller and shall assist the controller in meeting or complying with the controller's duties or requirements under the Data Privacy ",
+        "start_line": 441,
+        "end_line": 479,
+        "subsections": []
+      },
+      {
+        "id": "16",
+        "title": "Data Protection Assessments",
+        "section_type": "controller_duties",
+        "content": "(1) A controller shall conduct and document a data protection assessment of each of the following processing activities involving personal data: (a) The processing of personal data for purpo",
+        "start_line": 480,
+        "end_line": 511,
+        "subsections": []
+      },
+      {
+        "id": "17",
+        "title": "Deidentified Data Requirements",
+        "section_type": "controller_duties",
+        "content": "(1) A controller in possession of deidentified data shall: (a) Take reasonable measures to ensure that the data cannot be associated with an individual; (b) Publicly commit to maintaining a",
+        "start_line": 512,
+        "end_line": 533,
+        "subsections": []
+      },
+      {
+        "id": "18",
+        "title": "Small Business - Sensitive Data Sales",
+        "section_type": "general",
+        "content": "(1) A person described by subdivision (1)(c) of section 3 of this act shall not engage in the sale of personal data that is sensitive data without receiving prior consent from the consumer.",
+        "start_line": 534,
+        "end_line": 537,
+        "subsections": []
+      },
+      {
+        "id": "19",
+        "title": "Enforcement Authority",
+        "section_type": "enforcement",
+        "content": "The Attorney General has exclusive authority to enforce the Data Privacy Act.",
+        "start_line": 538,
+        "end_line": 539,
+        "subsections": []
+      },
+      {
+        "id": "20",
+        "title": "Attorney General Website Requirements",
+        "section_type": "enforcement",
+        "content": "The Attorney General shall post on the Attorney General's website: (1) Information relating to: (a) The responsibilities of a controller under the Data Privacy Act; (b) The responsibilities ",
+        "start_line": 540,
+        "end_line": 546,
+        "subsections": []
+      },
+      {
+        "id": "21",
+        "title": "Civil Investigative Demands",
+        "section_type": "enforcement",
+        "content": "(1) If the Attorney General has reasonable cause to believe that a controller or processor has engaged in or is engaging in a violation of the Data Privacy Act, the Attorney General may issu",
+        "start_line": 547,
+        "end_line": 552,
+        "subsections": []
+      },
+      {
+        "id": "22",
+        "title": "Cure Period",
+        "section_type": "enforcement",
+        "content": "Before bringing an action under section 24 of this act, the Attorney General shall notify a controller or processor in writing, not later than the thirtieth day before bringing the action, ",
+        "start_line": 553,
+        "end_line": 562,
+        "subsections": []
+      },
+      {
+        "id": "23",
+        "title": "Investigative Subpoena Procedures",
+        "section_type": "enforcement",
+        "content": "(1) Whenever the Attorney General believes that any person may be in possession, custody, or control of any original or copy of any book, record, report, memorandum, paper, communication, ta",
+        "start_line": 563,
+        "end_line": 611,
+        "subsections": []
+      },
+      {
+        "id": "24",
+        "title": "Civil Penalties",
+        "section_type": "enforcement",
+        "content": "(1) A person who violates the Data Privacy Act following the cure period described by section 22 of this act or who breaches a written statement provided to the Attorney General under such ",
+        "start_line": 612,
+        "end_line": 622,
+        "subsections": []
+      },
+      {
+        "id": "25",
+        "title": "No Private Right of Action",
+        "section_type": "enforcement",
+        "content": "The Data Privacy Act shall not be construed as providing a basis for, or being subject to, a private right of action for a violation of the Data Privacy Act or any other law.",
+        "start_line": 623,
+        "end_line": 625,
+        "subsections": []
+      },
+      {
+        "id": "26",
+        "title": "General Exceptions",
+        "section_type": "exemptions",
+        "content": "The Data Privacy Act shall not be construed to: (1) Restrict a controller's or processor's ability to: (a) Comply with federal, state, or local laws, rules, or regulations; (b) Comply with",
+        "start_line": 626,
+        "end_line": 670,
+        "subsections": []
+      },
+      {
+        "id": "27",
+        "title": "Data Collection and Retention Exceptions",
+        "section_type": "exemptions",
+        "content": "(1) The requirements imposed on any controller or processor under the Data Privacy Act shall not restrict a controller's or processor's ability to collect, use, or retain data to: (a) Conduc",
+        "start_line": 671,
+        "end_line": 685,
+        "subsections": []
+      },
+      {
+        "id": "28",
+        "title": "Third-Party Liability Limitations",
+        "section_type": "general",
+        "content": "(1) A controller or processor that discloses personal data to a third-party controller or processor, in compliance with any requirement of the Data Privacy Act, does not violate the Data Pr",
+        "start_line": 686,
+        "end_line": 694,
+        "subsections": []
+      },
+      {
+        "id": "29",
+        "title": "Processing Under Exemptions",
+        "section_type": "exemptions",
+        "content": "(1) Personal data processed by a controller under sections 26 to 29 of this act may not be processed for any purpose other than a purpose listed in sections 26 to 29 of this act unless othe",
+        "start_line": 695,
+        "end_line": 709,
+        "subsections": []
+      },
+      {
+        "id": "30",
+        "title": "Preemption",
+        "section_type": "general",
+        "content": "The Data Privacy Act supersedes and preempts any ordinance, resolution, rule, or other regulation adopted by a political subdivision regarding the processing of personal data by a controlle",
+        "start_line": 710,
+        "end_line": 712,
+        "subsections": []
+      }
+    ],
+    "definitions": {
+      "Affiliate": {
+        "term": "Affiliate",
+        "definition": "A legal entity that controls, is controlled by, or is under common control with another legal entity or shares common branding with another legal entity. Control or controlled means: (a) The ownership of, or power to vote, more than fifty percent of the outstanding shares of any class of voting security of a company; (b) The control in any manner over the election of a majority of the directors or of individuals exercising similar functions; or (c) The power to exercise controlling influence over the management of a company",
+        "section": "2",
+        "notes": ""
+      },
+      "Authenticate": {
+        "term": "Authenticate",
+        "definition": "To verify through reasonable means that the consumer who is entitled to exercise the consumer's rights under sections 7 to 11 of this act, or a person on behalf of such consumer, is the same consumer exercising those consumer rights with respect to the personal data at issue",
+        "section": "2",
+        "notes": ""
+      },
+      "Biometric data": {
+        "term": "Biometric data",
+        "definition": "Data that is generated to identify a specific individual through an automatic measurement of a biological characteristic of such individual and includes any: (i) Fingerprint; (ii) Voice print; (iii) Retina image; (iv) Iris image; or (v) Unique biological pattern or characteristic. Does not include physical or digital photographs, video or audio recordings, or data generated from such (except when generated to identify a specific individual), or information collected, used, or stored for health care treatment, payment, or operations under HIPAA",
+        "section": "2",
+        "notes": ""
+      },
+      "Business associate": {
+        "term": "Business associate",
+        "definition": "Has the meaning assigned to the term by the Health Insurance Portability and Accountability Act",
+        "section": "2",
+        "notes": ""
+      },
+      "Child": {
+        "term": "Child",
+        "definition": "An individual younger than thirteen years of age",
+        "section": "2",
+        "notes": ""
+      },
+      "Consent": {
+        "term": "Consent",
+        "definition": "When referring to a consumer, a clear and affirmative act signifying a consumer's freely given, specific, informed, and unambiguous agreement to process personal data relating to the consumer, including a statement written by electronic means or any other unambiguous affirmative action by the consumer. Does not include: (i) Acceptance of a general or broad term of use or similar document that contains a description of personal data processing along with other, unrelated information; (ii) Hovering over, muting, pausing, or closing a given piece of content; or (iii) Agreement obtained through the use of a dark pattern",
+        "section": "2",
+        "notes": ""
+      },
+      "Consumer": {
+        "term": "Consumer",
+        "definition": "An individual who is a resident of this state acting only in an individual or household context. Does not include an individual acting in a commercial or employment context",
+        "section": "2",
+        "notes": ""
+      },
+      "Controller": {
+        "term": "Controller",
+        "definition": "An individual or other person that, alone or jointly with others, determines the purpose and means of processing personal data",
+        "section": "2",
+        "notes": ""
+      },
+      "Covered entity": {
+        "term": "Covered entity",
+        "definition": "Has the same meaning as defined in 45 C.F.R. 160.103, as such regulation existed on January 1, 2024",
+        "section": "2",
+        "notes": ""
+      },
+      "Dark pattern": {
+        "term": "Dark pattern",
+        "definition": "A user interface designed or manipulated with the effect of substantially subverting or impairing user autonomy, decision-making, or choice, and includes any practice determined by the Federal Trade Commission to be a dark pattern as of January 1, 2024",
+        "section": "2",
+        "notes": ""
+      },
+      "Decision that produces a legal or similarly significant effect concerning a consumer": {
+        "term": "Decision that produces a legal or similarly significant effect concerning a consumer",
+        "definition": "A decision made by the controller that results in the provision or denial by the controller of: (a) Financial and lending services; (b) Housing, insurance, or health care services; (c) Education enrollment; (d) Employment opportunities; (e) Criminal justice; or (f) Access to basic necessities, such as food and water",
+        "section": "2",
+        "notes": ""
+      },
+      "Deidentified data": {
+        "term": "Deidentified data",
+        "definition": "Data that cannot reasonably be linked to an identified or identifiable individual, or a device linked to that individual",
+        "section": "2",
+        "notes": ""
+      },
+      "Health care provider": {
+        "term": "Health care provider",
+        "definition": "Has the same meaning as in the Health Insurance Portability and Accountability Act",
+        "section": "2",
+        "notes": ""
+      },
+      "Health Insurance Portability and Accountability Act": {
+        "term": "Health Insurance Portability and Accountability Act",
+        "definition": "The federal Health Insurance Portability and Accountability Act of 1996, as such act existed on January 1, 2024",
+        "section": "2",
+        "notes": ""
+      },
+      "Health record": {
+        "term": "Health record",
+        "definition": "Any written, printed, or electronically recorded material maintained by a health care provider in the course of providing health care services to an individual that concerns the individual and the services provided to such individual, and includes: (a) The substance of any communication made by an individual to a health care provider in confidence during or in connection with the provision of health care services; or (b) Information otherwise acquired by the health care provider about an individual in confidence and in connection with health care services provided to the individual",
+        "section": "2",
+        "notes": ""
+      },
+      "Identified or identifiable individual": {
+        "term": "Identified or identifiable individual",
+        "definition": "A consumer who can be directly or indirectly readily identified",
+        "section": "2",
+        "notes": ""
+      },
+      "Institution of higher education": {
+        "term": "Institution of higher education",
+        "definition": "Any postsecondary institution or private postsecondary institution as such terms are defined in section 85-2403",
+        "section": "2",
+        "notes": ""
+      },
+      "Known child": {
+        "term": "Known child",
+        "definition": "A child under circumstances where a controller has actual knowledge of, or willfully disregards, the child's age",
+        "section": "2",
+        "notes": ""
+      },
+      "Nonprofit organization": {
+        "term": "Nonprofit organization",
+        "definition": "Any corporation organized under the Nebraska Nonprofit Corporation Act, any organization exempt from taxation under section 501(c)(3), 501(c)(6), or 501(c)(12) of the Internal Revenue Code, any organization exempt from taxation under section 501(c)(4) of the Internal Revenue Code that is established to detect or prevent insurance-related crime or fraud, and any subsidiary or affiliate of a cooperative corporation organized in this state",
+        "section": "2",
+        "notes": ""
+      },
+      "Personal data": {
+        "term": "Personal data",
+        "definition": "Any information, including sensitive data, that is linked or reasonably linkable to an identified or identifiable individual, and includes pseudonymous data when the data is used by a controller or processor in conjunction with additional information that reasonably links the data to an identified or identifiable individual. Does not include deidentified data or publicly available information",
+        "section": "2",
+        "notes": ""
+      },
+      "Political organization": {
+        "term": "Political organization",
+        "definition": "A party, committee, association, fund, or other organization, regardless of whether incorporated, that is organized and operated primarily for the purpose of influencing or attempting to influence: (a) The selection, nomination, election, or appointment of an individual to a federal, state, or local public office or an office in a political organization, regardless of whether the individual is selected, nominated, elected, or appointed; or (b) The election of a presidential or vice-presidential elector, regardless of whether the elector is selected, nominated, elected, or appointed",
+        "section": "2",
+        "notes": ""
+      },
+      "Precise geolocation data": {
+        "term": "Precise geolocation data",
+        "definition": "Information derived from technology, including global positioning system level latitude and longitude coordinates or other mechanisms, that directly identifies the specific location of an individual with precision and accuracy within a radius of one thousand seven hundred fifty feet. Does not include the content of communications or any data generated by or connected to an advanced utility metering infrastructure system or to equipment for use by a utility",
+        "section": "2",
+        "notes": ""
+      },
+      "Process or processing": {
+        "term": "Process or processing",
+        "definition": "An operation or set of operations performed, whether by manual or automated means, on personal data or on sets of personal data, such as the collection, use, storage, disclosure, analysis, deletion, or modification of personal data",
+        "section": "2",
+        "notes": ""
+      },
+      "Processor": {
+        "term": "Processor",
+        "definition": "A person that processes personal data on behalf of a controller",
+        "section": "2",
+        "notes": ""
+      },
+      "Profiling": {
+        "term": "Profiling",
+        "definition": "Any form of solely automated processing performed on personal data to evaluate, analyze, or predict personal aspects related to an identified or identifiable individual's economic situation, health, personal preferences, interests, reliability, behavior, location, or movements",
+        "section": "2",
+        "notes": ""
+      },
+      "Protected health information": {
+        "term": "Protected health information",
+        "definition": "Has the same meaning as in the Health Insurance Portability and Accountability Act",
+        "section": "2",
+        "notes": ""
+      },
+      "Pseudonymous data": {
+        "term": "Pseudonymous data",
+        "definition": "Any personal information that cannot be attributed to a specific individual without the use of additional information, provided that the additional information is kept separately and is subject to appropriate technical and organizational measures to ensure that the personal data is not attributed to an identified or identifiable individual",
+        "section": "2",
+        "notes": ""
+      },
+      "Publicly available information": {
+        "term": "Publicly available information",
+        "definition": "Information that is lawfully made available through government records, or information that a business has a reasonable basis to believe is lawfully made available to the general public through widely distributed media, by a consumer, or by a person to whom a consumer has disclosed the information, unless the consumer has restricted the information to a specific audience",
+        "section": "2",
+        "notes": ""
+      },
+      "Sale of personal data": {
+        "term": "Sale of personal data",
+        "definition": "The exchange of personal data for monetary or other valuable consideration by the controller to a third party. Does not include: (i) The disclosure of personal data to a processor that processes the personal data on the controller's behalf; (ii) The disclosure of personal data to a third party for purposes of providing a product or service requested by the consumer; (iii) The disclosure or transfer of personal data to an affiliate of the controller; (iv) The disclosure of information that the consumer intentionally made available to the general public through a mass media channel and did not restrict to a specific audience; or (v) The disclosure or transfer of personal data to a third party as an asset in which the third party assumes control of all or part of the controller's assets that is part of a proposed or actual merger, acquisition, bankruptcy, or other transaction",
+        "section": "2",
+        "notes": ""
+      },
+      "Sensitive data": {
+        "term": "Sensitive data",
+        "definition": "A category of personal data, and includes: (a) Personal data revealing racial or ethnic origin, religious beliefs, mental or physical health diagnosis, sexual orientation, or citizenship or immigration status; (b) Genetic or biometric data that is processed for the purpose of uniquely identifying an individual; (c) Personal data collected from a known child; or (d) Precise geolocation data",
+        "section": "2",
+        "notes": ""
+      },
+      "State agency": {
+        "term": "State agency",
+        "definition": "A department, commission, board, office, council, authority, or other agency in any branch of state government that is created by the constitution or a statute of this state, including any university system or any postsecondary institution as defined in section 85-2403",
+        "section": "2",
+        "notes": ""
+      },
+      "Targeted advertising": {
+        "term": "Targeted advertising",
+        "definition": "Displaying to a consumer an advertisement that is selected based on personal data obtained from that consumer's activities over time and across nonaffiliated websites or online applications to predict the consumer's preferences or interests. Does not include: (i) An advertisement that is based on activities within a controller's own websites or online applications, is based on the context of a consumer's current search query, visit to a website, or online application, or is directed to a consumer in response to the consumer's request for information or feedback; or (ii) The processing of personal data solely for measuring or reporting advertising performance, reach, or frequency",
+        "section": "2",
+        "notes": ""
+      },
+      "Third party": {
+        "term": "Third party",
+        "definition": "A person, other than the consumer, the controller, the processor, or an affiliate of the controller or processor",
+        "section": "2",
+        "notes": ""
+      },
+      "Trade secret": {
+        "term": "Trade secret",
+        "definition": "Has the same meaning as in section 87-502",
+        "section": "2",
+        "notes": ""
+      }
+    }
+  }
+}

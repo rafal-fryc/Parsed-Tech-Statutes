@@ -1,0 +1,574 @@
+{
+  "statute_name": "Maryland Privacy Law",
+  "effective_date": "",
+  "definitions": {},
+  "requirements": [
+    {
+      "id": "bc504c39-4a47-4c49-8547-f66806c4b01d",
+      "description": "Statute applies to entities conducting business in Maryland or targeting Maryland residents that meet threshold criteria",
+      "citation": {
+        "section": "14-4602",
+        "quoted_text": "THIS SUBTITLE APPLIES TO A PERSON THAT: (I) CONDUCTS BUSINESS IN THE STATE OR PROVIDES PRODUCTS OR SERVICES THAT ARE TARGETED TO RESIDENTS OF THE STATE, AND THAT DURING THE PRECEDING CALENDAR YEAR DID ANY OF THE FOLLOWING: (1) CONTROLLED OR PROCESSED THE PERSONAL DATA OF AT LEAST 35,000 CONSUMERS, EXCLUDING PERSONAL DATA CONTROLLED OR PROCESSED SOLELY FOR THE PURPOSE OF COMPLETING A PAYMENT TRANSACTION; OR (2) CONTROLLED OR PROCESSED THE PERSONAL DATA OF AT LEAST 10,000 CONSUMERS AND DERIVED MORE THAN 20% OF ITS GROSS REVENUE FROM THE SALE OF PERSONAL DATA.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          411,
+          412
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Conducts business in Maryland or provides products/services targeted to Maryland residents",
+        "During preceding calendar year: controlled/processed personal data of at least 35,000 consumers (excluding payment transactions only), OR controlled/processed personal data of at least 10,000 consumers and derived more than 20% of gross revenue from sale of personal data"
+      ],
+      "source_section": "14-4602",
+      "obligation_type": "must"
+    },
+    {
+      "id": "6029634a-e9ed-40c1-b072-b1f0c15433eb",
+      "description": "Entity exemptions: state and local government bodies, national securities associations, registered futures associations, financial institutions subject to GLBA, and nonprofit controllers assisting law enforcement or first responders",
+      "citation": {
+        "section": "14-4603(A)",
+        "quoted_text": "THIS SUBTITLE DOES NOT APPLY TO: (1) A REGULATORY, ADMINISTRATIVE, ADVISORY, EXECUTIVE, APPOINTIVE, LEGISLATIVE, OR JUDICIAL BODY OR INSTRUMENTALITY OF THE STATE...; (2) A NATIONAL SECURITIES ASSOCIATION THAT IS REGISTERED UNDER \u00a7 15 OF THE FEDERAL SECURITIES EXCHANGE ACT OF 1934 OR A REGISTERED FUTURES ASSOCIATION...; (3) A FINANCIAL INSTITUTION OR, AN AFFILIATE OF A FINANCIAL INSTITUTION, OR DATA THAT IS SUBJECT TO TITLE V OF THE FEDERAL GRAMM\u2013LEACH\u2013BLILEY ACT...; OR (4) A NONPROFIT CONTROLLER THAT PROCESSES OR SHARES PERSONAL DATA SOLELY FOR THE PURPOSES OF ASSISTING: (I) LAW ENFORCEMENT AGENCIES IN INVESTIGATING CRIMINAL OR FRAUDULENT ACTS RELATING TO INSURANCE; OR (II) FIRST RESPONDERS IN RESPONDING TO CATASTROPHIC EVENTS.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          421,
+          422
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Covered entities",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Entity must not fall within exempted categories"
+      ],
+      "source_section": "14-4603(A)",
+      "obligation_type": "may_not"
+    },
+    {
+      "id": "071a902f-82b6-4ef8-ae1c-75821eb2b491",
+      "description": "Data exemptions: protected health information under HIPAA, patient-identifying information for 42 U.S.C. \u00a7 290DD-2, identifiable private information for human subjects research, patient safety work product, information for public health activities, medical records under specific conditions, de-identified data per HIPAA standards, Fair Credit Reporting Act data, Driver's Privacy Protection Act data, FERPA data, Farm Credit Act data, employee/contractor data, and airline pricing data subject to federal preemption",
+      "citation": {
+        "section": "14-4603(B)",
+        "quoted_text": "THE FOLLOWING INFORMATION AND DATA ARE EXEMPT FROM THIS SUBTITLE: (1) PROTECTED HEALTH INFORMATION UNDER HIPAA; (2) PATIENT\u2013IDENTIFYING INFORMATION FOR PURPOSES OF 42 U.S.C. \u00a7 290DD\u20132; (3) IDENTIFIABLE PRIVATE INFORMATION THAT IS USED FOR PURPOSES OF THE FEDERAL POLICY FOR THE PROTECTION OF HUMAN SUBJECTS...; (4) IDENTIFIABLE PRIVATE INFORMATION TO THE EXTENT THAT IT IS COLLECTED AND USED AS PART OF HUMAN SUBJECTS RESEARCH...; (5) PATIENT SAFETY WORK PRODUCT...; (6) INFORMATION TO THE EXTENT IT IS USED FOR PUBLIC HEALTH, COMMUNITY HEALTH, OR POPULATION HEALTH ACTIVITIES...; (7) THE COLLECTION, MAINTENANCE, DISCLOSURE, SALE, COMMUNICATION, OR USE OF PERSONAL INFORMATION BEARING ON A CONSUMER'S CREDITWORTHINESS... AUTHORIZED UNDER THE FEDERAL FAIR CREDIT REPORTING ACT; (8) PERSONAL DATA COLLECTED, PROCESSED, SOLD, OR DISCLOSED IN COMPLIANCE WITH THE FEDERAL DRIVER'S PRIVACY PROTECTION ACT OF 1994; (9) PERSONAL DATA REGULATED BY THE FEDERAL FAMILY EDUCATIONAL RIGHTS AND PRIVACY ACT; (10) PERSONAL DATA COLLECTED, PROCESSED, SOLD, OR DISCLOSED IN COMPLIANCE WITH THE FEDERAL FARM CREDIT ACT; (11) DATA PROCESSED OR MAINTAINED: (I) IN THE COURSE OF AN INDIVIDUAL APPLYING TO, EMPLOYED BY, OR ACTING AS AN AGENT OR INDEPENDENT CONTRACTOR OF A CONTROLLER... TO THE EXTENT THAT THE DATA IS COLLECTED AND USED WITHIN THE CONTEXT OF THE ROLE...; (12) PERSONAL DATA COLLECTED, PROCESSED, SOLD, OR DISCLOSED IN RELATION TO PRICE, ROUTE, OR SERVICE BY AN AIR CARRIER... TO THE EXTENT THIS SUBTITLE IS PREEMPTED BY THE FEDERAL AIRLINE DEREGULATION ACT; AND (13) PERSONAL DATA COLLECTED FOR, PROVIDED TO, OR USED BY OR ON BEHALF OF A PERSON REGULATED UNDER THE INSURANCE ARTICLE...",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          443,
+          444
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Data falls within one of the enumerated exempted categories"
+      ],
+      "source_section": "14-4603(B)",
+      "obligation_type": "may_not"
+    },
+    {
+      "id": "048ceb63-6fde-48f6-ab69-63a8d717dcb3",
+      "description": "Prohibited use of geofence to establish virtual boundary within 1,750 feet of mental health or reproductive/sexual health facility for purposes of identifying, tracking, collecting data from, or sending notifications to consumers regarding consumer health data",
+      "citation": {
+        "section": "14-4604(3)",
+        "quoted_text": "A PERSON MAY NOT: USE A GEOFENCE TO ESTABLISH A VIRTUAL BOUNDARY THAT IS WITHIN 1,750 FEET OF ANY MENTAL HEALTH FACILITY OR REPRODUCTIVE OR SEXUAL HEALTH FACILITY FOR THE PURPOSE OF IDENTIFYING, TRACKING, OR COLLECTING DATA FROM, OR SENDING ANY NOTIFICATION TO A CONSUMER REGARDING THE CONSUMER'S CONSUMER HEALTH DATA.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          552,
+          553
+        ],
+        "match_type": "contains"
+      },
+      "category": "technical",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Using geofence technology",
+        "Within 1,750 feet of mental health or reproductive/sexual health facility",
+        "For purposes related to consumer health data"
+      ],
+      "source_section": "14-4604",
+      "obligation_type": "may_not"
+    },
+    {
+      "id": "6c04da62-a6b5-4844-be1b-2422253642aa",
+      "description": "Must provide employee or contractor access to consumer health data only if subject to contractual or statutory duty of confidentiality or confidentiality required as condition of employment",
+      "citation": {
+        "section": "14-4604(1)",
+        "quoted_text": "A PERSON MAY NOT: PROVIDE AN EMPLOYEE OR A CONTRACTOR ACCESS TO CONSUMER HEALTH DATA UNLESS THE: (I) THE EMPLOYEE OR CONTRACTOR IS SUBJECT TO A CONTRACTUAL OR STATUTORY DUTY OF CONFIDENTIALITY; OR (II) CONFIDENTIALITY IS REQUIRED AS A CONDITION OF EMPLOYMENT OF THE EMPLOYEE",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          531,
+          532
+        ],
+        "match_type": "contains"
+      },
+      "category": "operational",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Providing access to consumer health data"
+      ],
+      "source_section": "14-4604",
+      "obligation_type": "must"
+    },
+    {
+      "id": "d0ff3521-b37a-4f0f-b1bf-14520cddf059",
+      "description": "Must comply with processor contract requirements when providing processor access to consumer health data",
+      "citation": {
+        "section": "14-4604(2)",
+        "quoted_text": "A PERSON MAY NOT: PROVIDE A PROCESSOR ACCESS TO CONSUMER HEALTH DATA UNLESS THE PERSON PROVIDING ACCESS TO THE CONSUMER HEALTH DATA AND THE PROCESSOR COMPLY WITH \u00a7 14\u20134608 OF THIS SUBTITLE",
+        "verified": true,
+        "confidence": 0.947098445595855,
+        "line_numbers": [
+          536,
+          538
+        ],
+        "match_type": "fuzzy_multiline"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.947098445595855,
+      "conditions": [
+        "Providing processor access to consumer health data"
+      ],
+      "source_section": "14-4604",
+      "obligation_type": "must"
+    },
+    {
+      "id": "2fba808c-07bf-4dd6-a970-1667ee544881",
+      "description": "Must establish secure and reliable method for consumers to exercise consumer rights",
+      "citation": {
+        "section": "14-4605(C)(1)",
+        "quoted_text": "A CONTROLLER SHALL ESTABLISH A SECURE AND RELIABLE METHOD FOR A CONSUMER TO EXERCISE A CONSUMER RIGHT UNDER THIS SECTION.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          43,
+          43
+        ],
+        "match_type": "exact"
+      },
+      "category": "technical",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "None"
+      ],
+      "source_section": "14-4605",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "72736113-3ce3-4332-b249-3e5bf3579e93",
+      "description": "Must respond to consumer rights requests within 45 days after receiving request, with possible 45-day extension if reasonably necessary and consumer notified",
+      "citation": {
+        "section": "14-4605(E)(2)",
+        "quoted_text": "A CONTROLLER SHALL RESPOND TO A CONSUMER REQUEST NOT LATER THAN 45 DAYS AFTER THE CONTROLLER RECEIVES THE CONSUMER REQUEST. (II) A CONTROLLER MAY EXTEND THE COMPLETION PERIOD BY AN ADDITIONAL 45 DAYS IF: 1. IT IS REASONABLY NECESSARY TO COMPLETE THE REQUEST BASED ON THE COMPLEXITY AND NUMBER OF THE CONSUMER'S REQUESTS; AND 2. THE CONTROLLER INFORMS THE CONSUMER OF THE EXTENSION AND THE REASON FOR THE EXTENSION WITHIN THE INITIAL 45\u2013DAY RESPONSE PERIOD.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          613,
+          614
+        ],
+        "match_type": "contains"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Received consumer rights request"
+      ],
+      "source_section": "14-4605",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "8cc11bf8-421c-4c6c-a858-4a5b3d7f0eed",
+      "description": "Must provide information in response to consumer rights requests free of charge once during any 12-month period",
+      "citation": {
+        "section": "14-4605(E)(4)(I)",
+        "quoted_text": "A CONTROLLER SHALL PROVIDE INFORMATION TO A CONSUMER IN RESPONSE TO A CONSUMER'S REQUEST TO EXERCISE RIGHTS UNDER THIS SUBTITLE FREE OF CHARGE ONCE DURING ANY 12\u2013MONTH PERIOD.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          42,
+          42
+        ],
+        "match_type": "exact_normalized"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Consumer rights request received"
+      ],
+      "source_section": "14-4605",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "92378829-af7f-450b-a8d8-8c41d34e024e",
+      "description": "Must establish appeals process for consumers to appeal controller's refusal to act on consumer rights request",
+      "citation": {
+        "section": "14-4605(F)(1)",
+        "quoted_text": "A CONTROLLER SHALL ESTABLISH A PROCESS FOR A CONSUMER TO APPEAL THE CONTROLLER'S REFUSAL TO ACT ON A CONSUMER RIGHTS REQUEST WITHIN A REASONABLE PERIOD AFTER THE CONSUMER RECEIVES THE DECISION.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          43,
+          43
+        ],
+        "match_type": "exact_normalized"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "None"
+      ],
+      "source_section": "14-4605",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "8bb6ded5-0204-4939-8ed2-0a1ead26a9df",
+      "description": "Must respond to appeals within 60 days after receiving appeal with written explanation of action taken or not taken",
+      "citation": {
+        "section": "14-4605(F)(3)",
+        "quoted_text": "NOT LATER THAN 60 DAYS AFTER RECEIVING AN APPEAL, A CONTROLLER SHALL INFORM THE CONSUMER IN WRITING OF ANY ACTION TAKEN OR NOT TAKEN IN RESPONSE TO THE APPEAL, INCLUDING A WRITTEN EXPLANATION OF THE REASONS FOR THE DECISIONS.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          43,
+          43
+        ],
+        "match_type": "exact"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Appeal received"
+      ],
+      "source_section": "14-4605",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "a20adae2-40c9-4b66-af2d-763f284444ae",
+      "description": "Must comply with opt-out requests from authorized agents if controller can authenticate consumer identity and agent's authority using commercially reasonable efforts",
+      "citation": {
+        "section": "14-4606(B)",
+        "quoted_text": "A CONTROLLER SHALL COMPLY WITH AN OPT\u2013OUT REQUEST RECEIVED FROM AN AUTHORIZED AGENT IF, USING COMMERCIALLY REASONABLE EFFORTS, THE CONTROLLER IS ABLE TO AUTHENTICATE: (1) THE IDENTITY OF THE CONSUMER; AND (2) THE AUTHORIZED AGENT'S AUTHORITY TO ACT ON THE CONSUMER'S BEHALF.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          42,
+          42
+        ],
+        "match_type": "exact_normalized"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Opt-out request received from authorized agent",
+        "Controller can authenticate consumer identity and agent authority"
+      ],
+      "source_section": "14-4606",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "137a8f3b-805e-4e77-8dcd-dffb74bd9560",
+      "description": "Controller prohibitions: may not collect, process, or share sensitive data without consumer consent (except when strictly necessary for requested product/service), sell sensitive data, process personal data in violation of anti-discrimination laws, process personal data of minors 13-17 for targeted advertising, sell personal data of minors 13-17 without consent, discriminate against consumers for exercising rights, unlawfully discriminate based on protected characteristics (with exceptions), or process personal data for purposes neither reasonably necessary nor compatible with disclosed purposes without consent",
+      "citation": {
+        "section": "14-4607(A)",
+        "quoted_text": "A CONTROLLER MAY NOT: (1) EXCEPT WHERE THE COLLECTION OR PROCESSING IS STRICTLY NECESSARY TO PROVIDE OR MAINTAIN A SPECIFIC PRODUCT OR SERVICE REQUESTED BY THE CONSUMER TO WHOM THE PERSONAL DATA PERTAINS, COLLECT, PROCESS, OR SHARE SENSITIVE DATA CONCERNING A CONSUMER; (2) SELL SENSITIVE DATA; (3) PROCESS PERSONAL DATA IN VIOLATION OF STATE OR FEDERAL LAWS THAT PROHIBIT UNLAWFUL DISCRIMINATION; (4) PROCESS THE PERSONAL DATA OF A CONSUMER FOR THE PURPOSES OF TARGETED ADVERTISING IF THE CONTROLLER KNEW OR SHOULD HAVE KNOWN THAT THE CONSUMER IS UNDER THE AGE OF 18 YEARS; (5) SELL THE PERSONAL DATA OF A CONSUMER IF THE CONTROLLER KNEW OR SHOULD HAVE KNOWN THAT THE CONSUMER IS UNDER THE AGE OF 18 YEARS; (6) DISCRIMINATE AGAINST A CONSUMER FOR EXERCISING A CONSUMER RIGHT CONTAINED IN THIS SUBTITLE...; (7) COLLECT, PROCESS, OR TRANSFER PERSONAL DATA OR PUBLICLY AVAILABLE DATA IN A MANNER THAT UNLAWFULLY DISCRIMINATES... ON THE BASIS OF RACE, COLOR, RELIGION, NATIONAL ORIGIN, SEX, SEXUAL ORIENTATION, GENDER IDENTITY, OR DISABILITY, UNLESS THE COLLECTION, PROCESSING, OR TRANSFER OF PERSONAL DATA IS FOR: (I) THE CONTROLLER'S SELF\u2013TESTING TO PREVENT OR MITIGATE UNLAWFUL DISCRIMINATION; (II) THE CONTROLLER'S DIVERSIFYING OF AN APPLICANT, PARTICIPANT, OR CUSTOMER POOL; OR (III) A PRIVATE CLUB OR GROUP NOT OPEN TO THE PUBLIC...; OR (8) UNLESS THE CONTROLLER OBTAINS THE CONSUMER'S CONSENT, PROCESS PERSONAL DATA FOR A PURPOSE THAT IS NEITHER REASONABLY NECESSARY TO, NOR COMPATIBLE WITH, THE DISCLOSED PURPOSES FOR WHICH THE PERSONAL DATA IS PROCESSED...",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          741,
+          742
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Various conditions per prohibition"
+      ],
+      "source_section": "14-4607",
+      "obligation_type": "may_not"
+    },
+    {
+      "id": "e9d51ad1-b264-4528-9282-0c2aebb422c1",
+      "description": "Must limit collection of personal data to what is reasonably necessary and proportionate to provide or maintain requested product or service, establish reasonable data security practices, and provide effective mechanism for consumers to revoke consent that is at least as easy as mechanism by which consent was provided",
+      "citation": {
+        "section": "14-4607(B)(1)",
+        "quoted_text": "A CONTROLLER SHALL: (I) LIMIT THE COLLECTION OF PERSONAL DATA TO WHAT IS REASONABLY NECESSARY AND PROPORTIONATE TO PROVIDE OR MAINTAIN A SPECIFIC PRODUCT OR SERVICE REQUESTED BY THE CONSUMER TO WHOM THE DATA PERTAINS; (II) ESTABLISH, IMPLEMENT, AND MAINTAIN REASONABLE ADMINISTRATIVE, TECHNICAL, AND PHYSICAL DATA SECURITY PRACTICES TO PROTECT THE CONFIDENTIALITY, INTEGRITY, AND ACCESSIBILITY OF PERSONAL DATA APPROPRIATE TO THE VOLUME AND NATURE OF THE PERSONAL DATA AT ISSUE; AND (III) PROVIDE AN EFFECTIVE MECHANISM FOR A CONSUMER TO REVOKE THE CONSUMER'S CONSENT UNDER THIS SECTION THAT IS AT LEAST AS EASY AS THE MECHANISM BY WHICH THE CONSUMER PROVIDED THE CONSUMER'S CONSENT.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          754,
+          755
+        ],
+        "match_type": "contains"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "None"
+      ],
+      "source_section": "14-4607",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "f97d8338-ec06-4c73-81f9-705db9e09875",
+      "description": "Must stop processing consumer's personal data within 30 days after consumer revokes consent",
+      "citation": {
+        "section": "14-4607(B)(2)",
+        "quoted_text": "IF A CONSUMER REVOKES CONSENT UNDER THIS SECTION, THE CONTROLLER SHALL STOP PROCESSING THE CONSUMER'S PERSONAL DATA AS SOON AS PRACTICABLE, BUT NOT LATER THAN 30 DAYS AFTER RECEIVING THE REQUEST.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          771,
+          774
+        ],
+        "match_type": "fuzzy_multiline"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Consumer revoked consent"
+      ],
+      "source_section": "14-4607",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "d4b18da8-d5a9-4791-a4d2-8afc4d5d3633",
+      "description": "Privacy notice must include: categories of personal data processed (including sensitive data), controller's purpose for processing, how consumer may exercise rights and appeal decisions or revoke consent, categories of third parties with which controller shares personal data with sufficient detail about type/business model/processing, categories of personal data shared with third parties, and active email address or other online mechanism for consumer contact",
+      "citation": {
+        "section": "14-4607(D)",
+        "quoted_text": "A CONTROLLER SHALL PROVIDE A CONSUMER WITH A REASONABLY ACCESSIBLE, CLEAR, AND MEANINGFUL PRIVACY NOTICE THAT INCLUDES: (1) THE CATEGORIES OF PERSONAL DATA PROCESSED BY THE CONTROLLER, INCLUDING SENSITIVE DATA; (2) THE CONTROLLER'S PURPOSE FOR PROCESSING PERSONAL DATA; (3) HOW A CONSUMER MAY EXERCISE THE CONSUMER'S RIGHTS UNDER THIS SUBTITLE, INCLUDING HOW A CONSUMER MAY APPEAL A CONTROLLER'S DECISION REGARDING THE CONSUMER'S REQUEST OR MAY REVOKE CONSENT; (4) THE CATEGORIES OF THIRD PARTIES WITH WHICH THE CONTROLLER SHARES PERSONAL DATA WITH A LEVEL OF DETAIL THAT ENABLES A CONSUMER TO UNDERSTAND THE TYPE OF, BUSINESS MODEL OF, OR PROCESSING CONDUCTED BY EACH THIRD PARTY; (5) THE CATEGORIES OF PERSONAL DATA, INCLUDING SENSITIVE DATA, THAT THE CONTROLLER SHARES WITH THIRD PARTIES; AND (6) AN ACTIVE E\u2013MAIL ADDRESS OR OTHER ONLINE MECHANISM THAT A CONSUMER MAY USE TO CONTACT THE CONTROLLER.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          788,
+          789
+        ],
+        "match_type": "contains"
+      },
+      "category": "disclosure",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "None"
+      ],
+      "source_section": "14-4607",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "144c3e2d-0d61-42cc-9747-138dd5fa2aec",
+      "description": "If controller sells personal data or processes for targeted advertising or profiling for legal/significant decisions, must clearly and conspicuously disclose the sale/processing and manner for consumer to opt out, using prominent display with clear, easy to understand, and unambiguous language stating whether consumer's information will be sold or shared with third party",
+      "citation": {
+        "section": "14-4607(E)",
+        "quoted_text": "IF A CONTROLLER SELLS PERSONAL DATA TO THIRD PARTIES OR PROCESSES PERSONAL DATA FOR TARGETED ADVERTISING OR FOR THE PURPOSES OF PROFILING THE CONSUMER IN FURTHERANCE OF DECISIONS THAT PRODUCE LEGAL OR SIMILARLY SIGNIFICANT EFFECTS, THE CONTROLLER SHALL CLEARLY AND CONSPICUOUSLY DISCLOSE THE SALE OR PROCESSING, AS WELL AS THE MANNER IN WHICH A CONSUMER MAY EXERCISE THE RIGHT TO OPT OUT OF THE SALE OR PROCESSING. (2) THE DISCLOSURE REQUIRED UNDER PARAGRAPH (1) OF THIS SUBSECTION SHALL BE PROMINENTLY DISPLAYED, AND USE CLEAR, EASY TO UNDERSTAND, AND UNAMBIGUOUS LANGUAGE, TO STATE WHETHER THE CONSUMER'S INFORMATION WILL BE SOLD OR SHARED WITH A THIRD PARTY.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          42,
+          42
+        ],
+        "match_type": "exact_normalized"
+      },
+      "category": "disclosure",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Sells personal data, or processes for targeted advertising, or processes for profiling in furtherance of legal/significant decisions"
+      ],
+      "source_section": "14-4607",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "129d4780-e796-4e2b-8f50-02f0b785ba8c",
+      "description": "Must enter into binding contract with processor that clearly sets forth processing instructions, nature and purpose of processing, type of data subject to processing, duration of processing, and rights and obligations of both parties, and contract must require processor to meet specified obligations",
+      "citation": {
+        "section": "14-4608(A)",
+        "quoted_text": "IF A CONTROLLER USES A PROCESSOR TO PROCESS THE PERSONAL DATA OF CONSUMERS, THE CONTROLLER AND THE PROCESSOR SHALL ENTER INTO A CONTRACT THAT GOVERNS THE PROCESSOR'S DATA PROCESSING PROCEDURES WITH RESPECT TO PROCESSING PERFORMED ON BEHALF OF THE CONTROLLER. (2) THE CONTRACT SHALL BE BINDING AND SHALL CLEARLY SET FORTH: (I) INSTRUCTIONS FOR PROCESSING DATA; (II) THE NATURE AND PURPOSE OF PROCESSING; (III) THE TYPE OF DATA SUBJECT TO PROCESSING; (IV) THE DURATION OF PROCESSING; AND (V) THE RIGHTS AND OBLIGATIONS OF BOTH PARTIES. (3) THE CONTRACT SHALL REQUIRE THAT THE PROCESSOR: (I) ENSURE THAT EACH PERSON PROCESSING PERSONAL DATA IS SUBJECT TO A DUTY OF CONFIDENTIALITY...; (II) ESTABLISH, IMPLEMENT, AND MAINTAIN REASONABLE... DATA SECURITY PRACTICES...; (III) STOP PROCESSING DATA ON REQUEST BY THE CONTROLLER...; (IV) AT THE CONTROLLER'S DIRECTION, DELETE OR RETURN ALL PERSONAL DATA...; (V) ...MAKE AVAILABLE TO THE CONTROLLER ALL INFORMATION... NECESSARY TO DEMONSTRATE THE PROCESSOR'S COMPLIANCE...; (VI) ...ENGAGE A SUBCONTRACTOR... ONLY IN ACCORDANCE WITH A WRITTEN CONTRACT...; AND (VII) ALLOW AND COOPERATE WITH REASONABLE ASSESSMENTS...",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          893,
+          894
+        ],
+        "match_type": "contains"
+      },
+      "category": "operational",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Controller uses processor to process consumer personal data"
+      ],
+      "source_section": "14-4608",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "af673748-0786-4675-839d-78333d7cdb4c",
+      "description": "Processor must adhere to controller contract and instructions, and assist controller in meeting obligations including responding to consumer rights requests and conducting data protection assessments",
+      "citation": {
+        "section": "14-4608(B)",
+        "quoted_text": "A PROCESSOR SHALL: (1) ADHERE TO THE CONTRACT AND INSTRUCTIONS OF A CONTROLLER; (2) ASSIST THE CONTROLLER IN MEETING THE CONTROLLER'S OBLIGATIONS UNDER THIS SUBTITLE, INCLUDING: (I) BY APPROPRIATE TECHNICAL AND ORGANIZATIONAL MEASURES AS MUCH AS REASONABLY PRACTICABLE TO FULFILL THE CONTROLLER'S OBLIGATION TO RESPOND TO CONSUMER RIGHTS REQUESTS...; AND (II) BY ASSISTING THE CONTROLLER IN MEETING THE CONTROLLER'S OBLIGATIONS IN RELATION TO THE SECURITY OF PROCESSING THE PERSONAL DATA AND IN RELATION TO THE NOTIFICATION OF A BREACH...; AND (3) PROVIDE NECESSARY INFORMATION TO ENABLE THE CONTROLLER TO CONDUCT AND DOCUMENT DATA PROTECTION ASSESSMENTS.",
+        "verified": true,
+        "confidence": 0.732824427480916,
+        "line_numbers": [
+          948,
+          964
+        ],
+        "match_type": "fuzzy_multiline"
+      },
+      "category": "operational",
+      "applies_to": "Processors",
+      "verified": true,
+      "confidence": 0.732824427480916,
+      "conditions": [
+        "None"
+      ],
+      "source_section": "14-4608",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "185405a3-b742-46c5-bc47-405d34838436",
+      "description": "Must conduct and document data protection assessment on regular basis for processing activities that present heightened risk of harm (targeted advertising, sale of personal data, processing of sensitive data, profiling with foreseeable risks), including assessment for each algorithm used",
+      "citation": {
+        "section": "14-4610(B)",
+        "quoted_text": "A CONTROLLER SHALL CONDUCT AND DOCUMENT, ON A REGULAR BASIS, A DATA PROTECTION ASSESSMENT FOR EACH OF THE CONTROLLER'S PROCESSING ACTIVITIES THAT PRESENT A HEIGHTENED RISK OF HARM TO A CONSUMER, INCLUDING AN ASSESSMENT FOR EACH ALGORITHM THAT IS USED.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          43,
+          43
+        ],
+        "match_type": "exact_normalized"
+      },
+      "category": "operational",
+      "applies_to": "Controllers",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Processing activities that present heightened risk of harm to consumers"
+      ],
+      "source_section": "14-4610",
+      "obligation_type": "shall"
+    },
+    {
+      "id": "d41368c0-9a4a-4d33-938f-973db5cd2eea",
+      "description": "Enforcement: violation of subtitle is unfair, abusive, or deceptive trade practice subject to enforcement and penalties under Maryland Consumer Protection Act (Title 13), except no private right of action under \u00a7 13-408",
+      "citation": {
+        "section": "14-4613",
+        "quoted_text": "A VIOLATION OF THIS SUBTITLE IS: (1) AN UNFAIR, ABUSIVE, OR DECEPTIVE TRADE PRACTICE WITHIN THE MEANING OF TITLE 13 OF THIS ARTICLE; AND (2) SUBJECT TO THE ENFORCEMENT AND PENALTY PROVISIONS CONTAINED IN TITLE 13 OF THIS ARTICLE, EXCEPT FOR \u00a7 13\u2013408 OF THIS ARTICLE.",
+        "verified": true,
+        "confidence": 1.0,
+        "line_numbers": [
+          43,
+          43
+        ],
+        "match_type": "exact"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 1.0,
+      "conditions": [
+        "Violation of subtitle"
+      ],
+      "source_section": "14-4613",
+      "obligation_type": "must"
+    },
+    {
+      "id": "736ad84d-4402-40d4-aff1-1e4b94f8435f",
+      "description": "Cure provision: for violations occurring on or before April 1, 2027, Division may issue notice of violation before initiating action if cure is possible; controller/processor has at least 60 days to cure; if not cured, Division may bring enforcement action",
+      "citation": {
+        "section": "14-4614",
+        "quoted_text": "THIS SECTION APPLIES TO AN ENFORCEMENT ACTION UNDER \u00a7 14\u20134613 OF THIS SUBTITLE FOR AN ALLEGED VIOLATION THAT OCCURS ON OR BEFORE APRIL 1, 2027. (B) BEFORE INITIATING ANY ACTION UNDER \u00a7 14\u20134613 OF THIS SUBTITLE, THE DIVISION MAY ISSUE A NOTICE OF VIOLATION TO THE CONTROLLER OR PROCESSOR IF THE DIVISION DETERMINES THAT A CURE IS POSSIBLE. (C)(1) IF THE DIVISION ISSUES A NOTICE OF VIOLATION UNDER SUBSECTION (B) OF THIS SECTION, THE CONTROLLER OR PROCESSOR SHALL HAVE AT LEAST 60 DAYS TO CURE THE VIOLATION AFTER RECEIPT OF THE NOTICE. (2) IF THE CONTROLLER OR PROCESSOR FAILS TO CURE THE VIOLATION WITHIN THE TIME PERIOD SPECIFIED BY THE DIVISION, THE DIVISION MAY BRING AN ENFORCEMENT ACTION UNDER \u00a7 14\u20134613 OF THIS SUBTITLE.",
+        "verified": true,
+        "confidence": 0.85,
+        "line_numbers": [
+          1253,
+          1254
+        ],
+        "match_type": "contains"
+      },
+      "category": "legal_framework",
+      "applies_to": "Controllers and processors",
+      "verified": true,
+      "confidence": 0.85,
+      "conditions": [
+        "Alleged violation occurs on or before April 1, 2027"
+      ],
+      "source_section": "14-4614",
+      "obligation_type": "may"
+    }
+  ],
+  "unverified_items": [],
+  "metadata": {
+    "source_file": "State Privacy Laws\\Maryland Privacy Law.pdf",
+    "total_requirements": 22,
+    "verified_count": 22,
+    "output_format": "json",
+    "sections_processed": [
+      "14-4602",
+      "14-4603(A)",
+      "14-4603(B)",
+      "14-4604",
+      "14-4605",
+      "14-4606",
+      "14-4607",
+      "14-4608",
+      "14-4610",
+      "14-4613",
+      "14-4614"
+    ],
+    "requirements_per_section": {
+      "14-4602": 1,
+      "14-4603(A)": 1,
+      "14-4603(B)": 1,
+      "14-4604": 3,
+      "14-4605": 5,
+      "14-4606": 1,
+      "14-4607": 5,
+      "14-4608": 2,
+      "14-4610": 1,
+      "14-4613": 1,
+      "14-4614": 1
+    },
+    "total_extracted": 22
+  },
+  "structure": null
+}
